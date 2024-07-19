@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-04-10T06:57:12.159685",
+    "startedAt": "2022-04-10T06:57:08.817331",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-4a517ea0-686f-4672-9fc8-b9af6debc7fd.json"
+    ],
+    "state": "running",
+    "program": "baselinecode_fixing (2).ipynb",
+    "colab": "https://colab.research.google.com/notebook#fileId=1rmvtuYRDVcfMwi6cbe9LUCt_tRWD2unJ",
+    "host": "9e2f0f197f4a",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

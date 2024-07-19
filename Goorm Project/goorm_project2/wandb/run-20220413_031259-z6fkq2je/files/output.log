@@ -1,0 +1,41 @@
+Some weights of the model checkpoint at monologg/kobigbird-bert-base were not used when initializing BigBirdForQuestionAnswering: ['cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'bert.pooler.bias', 'cls.predictions.bias', 'bert.pooler.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BigBirdForQuestionAnswering were not initialized from the model checkpoint at monologg/kobigbird-bert-base and are newly initialized: ['qa_classifier.intermediate.dense.bias', 'qa_classifier.qa_outputs.weight', 'qa_classifier.qa_outputs.bias', 'qa_classifier.output.LayerNorm.weight', 'qa_classifier.intermediate.dense.weight', 'qa_classifier.output.dense.weight', 'qa_classifier.output.LayerNorm.bias', 'qa_classifier.output.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of Samples: 60407 243425 100268
+Number of Train Samples: 54367 219083 90242
+Number of Dev Samples: 6040 24342 10026
+Number of Train Samples: 363690
+Number of Dev Samples: 40410
+Number of Samples: 60407 243425 100268
+Number of Train Samples: 54367 219083 90242
+Number of Dev Samples: 6040 24342 10026
+Number of Train Samples: 140339
+Number of Dev Samples: 15593
+['한국은행', '의', '금리', '인', '상', '시기', '가', '늦', '어지', '면', '서', '가계', '부', '채', '급증', '과', '물가', '상승', '의', '원인', '을', '제공', '했', '다는', '것', '이', '이', '들', '의', '공통', '된', '주장', '이', '었', '다', '.']
+tensor([[    2,  7943,  3768,  ...,     0,     0,     0],
+        [    2,  6938, 11818,  ...,     0,     0,     0],
+        [    2, 12977,  9575,  ...,     0,     0,     0],
+        [    2,  8703,  5161,  ...,  2873,   518,     3]])
+torch.Size([4, 602])
+['guid', 'context', 'question', 'position', 'input_ids', 'token_type_ids', 'start', 'end', 'attention_mask']
+Epoch 0 ===============================================================================================================
+Attention type 'block_sparse' is not possible if sequence_length: 525 <= num global tokens: 2 * config.block_size + min. num sliding tokens: 3 * config.block_size + config.num_random_blocks * config.block_size + additional buffer: config.num_random_blocks * config.block_size = 704 with config.block_size = 64, config.num_random_blocks = 3. Changing attention type to 'original_full'...
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f5f9a7d1290>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1328, in __del__
+    self._shutdown_workers()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1301, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 682) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.

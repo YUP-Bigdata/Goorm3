@@ -1,0 +1,110 @@
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization.
+The tokenizer class you load from this checkpoint is 'GPT2Tokenizer'.
+The class this function is called from is 'PreTrainedTokenizerFast'.
+Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertModel: ['vocab_projector.bias', 'vocab_transform.bias', 'vocab_transform.weight', 'vocab_layer_norm.weight', 'vocab_projector.weight', 'vocab_layer_norm.bias']
+- This IS expected if you are initializing DistilBertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of GPT2LMHeadModel were not initialized from the model checkpoint at skt/kogpt2-base-v2 and are newly initialized: ['transformer.h.1.ln_cross_attn.weight', 'transformer.h.6.crossattention.c_proj.bias', 'transformer.h.3.crossattention.bias', 'transformer.h.9.crossattention.c_attn.weight', 'transformer.h.1.crossattention.masked_bias', 'transformer.h.4.ln_cross_attn.weight', 'transformer.h.8.crossattention.bias', 'transformer.h.7.crossattention.c_proj.weight', 'transformer.h.11.crossattention.bias', 'transformer.h.9.crossattention.c_proj.bias', 'transformer.h.6.crossattention.bias', 'transformer.h.4.crossattention.c_attn.weight', 'transformer.h.7.crossattention.c_attn.weight', 'transformer.h.5.crossattention.masked_bias', 'transformer.h.11.crossattention.c_proj.bias', 'transformer.h.9.crossattention.masked_bias', 'transformer.h.8.ln_cross_attn.weight', 'transformer.h.2.crossattention.c_proj.weight', 'transformer.h.8.crossattention.q_attn.weight', 'transformer.h.2.crossattention.masked_bias', 'transformer.h.3.ln_cross_attn.weight', 'transformer.h.10.crossattention.bias', 'transformer.h.11.crossattention.masked_bias', 'transformer.h.0.crossattention.c_proj.bias', 'transformer.h.11.crossattention.q_attn.weight', 'transformer.h.8.crossattention.c_attn.weight', 'transformer.h.1.crossattention.c_proj.weight', 'transformer.h.6.crossattention.masked_bias', 'transformer.h.6.crossattention.c_proj.weight', 'transformer.h.2.crossattention.q_attn.weight', 'transformer.h.10.crossattention.c_proj.bias', 'transformer.h.7.crossattention.bias', 'transformer.h.0.crossattention.q_attn.weight', 'transformer.h.7.ln_cross_attn.weight', 'transformer.h.10.crossattention.q_attn.weight', 'transformer.h.1.crossattention.bias', 'transformer.h.10.ln_cross_attn.weight', 'transformer.h.0.crossattention.c_attn.weight', 'transformer.h.11.ln_cross_attn.weight', 'transformer.h.9.ln_cross_attn.weight', 'transformer.h.5.crossattention.c_proj.weight', 'transformer.h.0.crossattention.bias', 'transformer.h.1.crossattention.c_proj.bias', 'transformer.h.3.crossattention.c_attn.weight', 'transformer.h.7.crossattention.q_attn.weight', 'transformer.h.0.crossattention.c_proj.weight', 'transformer.h.9.crossattention.c_proj.weight', 'transformer.h.2.crossattention.bias', 'transformer.h.6.crossattention.c_attn.weight', 'transformer.h.2.crossattention.c_proj.bias', 'transformer.h.4.crossattention.masked_bias', 'transformer.h.2.ln_cross_attn.weight', 'transformer.h.6.ln_cross_attn.weight', 'transformer.h.0.ln_cross_attn.weight', 'transformer.h.9.crossattention.q_attn.weight', 'transformer.h.5.ln_cross_attn.weight', 'transformer.h.1.crossattention.c_attn.weight', 'transformer.h.10.crossattention.masked_bias', 'transformer.h.5.crossattention.c_attn.weight', 'transformer.h.8.crossattention.c_proj.weight', 'transformer.h.5.crossattention.bias', 'transformer.h.4.crossattention.bias', 'transformer.h.10.crossattention.c_proj.weight', 'transformer.h.0.crossattention.masked_bias', 'transformer.h.9.crossattention.bias', 'transformer.h.10.crossattention.c_attn.weight', 'transformer.h.2.crossattention.c_attn.weight', 'transformer.h.4.crossattention.c_proj.bias', 'transformer.h.3.crossattention.c_proj.weight', 'transformer.h.5.crossattention.q_attn.weight', 'transformer.h.3.crossattention.q_attn.weight', 'transformer.h.3.crossattention.masked_bias', 'transformer.h.3.crossattention.c_proj.bias', 'transformer.h.11.crossattention.c_attn.weight', 'transformer.h.11.crossattention.c_proj.weight', 'transformer.h.4.crossattention.c_proj.weight', 'transformer.h.8.crossattention.c_proj.bias', 'transformer.h.4.crossattention.q_attn.weight', 'transformer.h.6.crossattention.q_attn.weight', 'transformer.h.1.crossattention.q_attn.weight', 'transformer.h.7.crossattention.masked_bias', 'transformer.h.8.crossattention.masked_bias', 'transformer.h.5.crossattention.c_proj.bias', 'transformer.h.7.crossattention.c_proj.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['얼마큼 나를 버려야 하니 서럽게 우는 내 맘 들리니 널 미친 듯 안고 싶은데 너 없이 나 견디지 못해', 'How much more do I have to throw myself away? Can you hear my sobbing heart? I want to hug you like crazy I can’t stand it without you']
+{'input_ids': [101, 1045, 1005, 1049, 3100, 2021, 1045, 1005, 1049, 2025, 3100, 1045, 2409, 2870, 1045, 1005, 1049, 2109, 2000, 2009, 2021, 1045, 1005, 1049, 1999, 3255, 2066, 2009, 1005, 1055, 1996, 2034, 2051, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'labels': [739, 6910, 8338, 9176, 739, 6910, 8338, 8263, 11492, 31077, 12524, 9749, 8166, 7492, 12357, 10061, 9609, 8148, 12499, 16484]}
+['[CLS]', 'i', "'", 'm', 'okay', 'but', 'i', "'", 'm', 'not', 'okay', 'i', 'told', 'myself', 'i', "'", 'm', 'used', 'to', 'it', 'but', 'i', "'", 'm', 'in', 'pain', 'like', 'it', "'", 's', 'the', 'first', 'time', '[SEP]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]']
+['▁', '괜', '찮', '지만', '▁', '괜', '찮', '지', '▁않아', '▁익숙', '하다고', '▁혼', '잣', '말', '했지만', '▁늘', '▁처음', '인', '▁것처럼', '▁아파']
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12088
+  Num Epochs = 10
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 30220
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-3022
+Configuration saved in checkpoints/checkpoint-3022/config.json
+Model weights saved in checkpoints/checkpoint-3022/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-6044
+Configuration saved in checkpoints/checkpoint-6044/config.json
+Model weights saved in checkpoints/checkpoint-6044/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-9066
+Configuration saved in checkpoints/checkpoint-9066/config.json
+Model weights saved in checkpoints/checkpoint-9066/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-12088
+Configuration saved in checkpoints/checkpoint-12088/config.json
+Model weights saved in checkpoints/checkpoint-12088/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-15110
+Configuration saved in checkpoints/checkpoint-15110/config.json
+Model weights saved in checkpoints/checkpoint-15110/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-18132
+Configuration saved in checkpoints/checkpoint-18132/config.json
+Model weights saved in checkpoints/checkpoint-18132/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-21154
+Configuration saved in checkpoints/checkpoint-21154/config.json
+Model weights saved in checkpoints/checkpoint-21154/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-24176
+Configuration saved in checkpoints/checkpoint-24176/config.json
+Model weights saved in checkpoints/checkpoint-24176/pytorch_model.bin
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-27198
+Configuration saved in checkpoints/checkpoint-27198/config.json
+Model weights saved in checkpoints/checkpoint-27198/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-585] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12088
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-30220
+Configuration saved in checkpoints/checkpoint-30220/config.json
+Model weights saved in checkpoints/checkpoint-30220/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-650] due to args.save_total_limit
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from checkpoints/checkpoint-30220 (score: 0.6060482859611511).
+Configuration saved in checkpoints/best_model/config.json
+Model weights saved in checkpoints/best_model/pytorch_model.bin

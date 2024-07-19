@@ -1,0 +1,342 @@
+2022-03-31 09:13:45,451 INFO    MainThread:458 [internal.py:wandb_internal():95] W&B internal server running at pid: 458, started at: 2022-03-31 09:13:45.448463
+2022-03-31 09:13:45,474 INFO    WriterThread:458 [datastore.py:open_for_write():77] open: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/run-pws7dxzj.wandb
+2022-03-31 09:13:45,474 DEBUG   SenderThread:458 [sender.py:send():235] send: header
+2022-03-31 09:13:45,477 DEBUG   SenderThread:458 [sender.py:send():235] send: run
+2022-03-31 09:13:45,698 INFO    SenderThread:458 [dir_watcher.py:__init__():169] watching files in: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files
+2022-03-31 09:13:45,698 INFO    SenderThread:458 [sender.py:_start_run_threads():815] run started: pws7dxzj with start time 1648718024
+2022-03-31 09:13:45,698 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:13:45,701 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: check_version
+2022-03-31 09:13:45,702 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:13:45,702 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: check_version
+2022-03-31 09:13:45,761 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: run_start
+2022-03-31 09:13:46,701 INFO    Thread-7  :458 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:13:48,117 DEBUG   HandlerThread:458 [meta.py:__init__():37] meta init
+2022-03-31 09:13:48,117 DEBUG   HandlerThread:458 [meta.py:__init__():51] meta init done
+2022-03-31 09:13:48,117 DEBUG   HandlerThread:458 [meta.py:probe():211] probe
+2022-03-31 09:13:48,125 DEBUG   HandlerThread:458 [git.py:repo():33] git repository is invalid
+2022-03-31 09:13:48,125 DEBUG   HandlerThread:458 [meta.py:_save_pip():55] save pip
+2022-03-31 09:13:48,128 DEBUG   HandlerThread:458 [meta.py:_save_pip():69] save pip done
+2022-03-31 09:13:48,129 DEBUG   HandlerThread:458 [meta.py:probe():249] probe done
+2022-03-31 09:13:48,133 DEBUG   SenderThread:458 [sender.py:send():235] send: files
+2022-03-31 09:13:48,133 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-03-31 09:13:48,144 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:13:48,145 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:13:48,173 DEBUG   SenderThread:458 [sender.py:send():235] send: telemetry
+2022-03-31 09:13:48,173 DEBUG   SenderThread:458 [sender.py:send():235] send: telemetry
+2022-03-31 09:13:48,173 DEBUG   SenderThread:458 [sender.py:send():235] send: run
+2022-03-31 09:13:48,252 INFO    SenderThread:458 [sender.py:send_run():710] updated run: pws7dxzj
+2022-03-31 09:13:48,399 INFO    Thread-11 :458 [upload_job.py:push():137] Uploaded file /tmp/tmp1j06g36_wandb/n38srkp5-wandb-metadata.json
+2022-03-31 09:13:48,706 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/config.yaml
+2022-03-31 09:13:48,707 INFO    Thread-7  :458 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-metadata.json
+2022-03-31 09:13:48,707 INFO    Thread-7  :458 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:13:48,707 INFO    Thread-7  :458 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/requirements.txt
+2022-03-31 09:13:52,714 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:13:54,718 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:13:56,722 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:13:58,725 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:00,729 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:02,276 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:14:02,277 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:14:02,277 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:14:02,282 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:14:02,733 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:14:03,174 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:14:03,175 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:14:04,737 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:06,740 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:08,743 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:10,748 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:12,752 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:14,756 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:16,520 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:14:16,760 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:16,760 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/config.yaml
+2022-03-31 09:14:17,166 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:14:17,167 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:14:17,167 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:14:17,172 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:14:17,762 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:14:18,218 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:14:18,219 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:14:18,764 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:20,768 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:22,771 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:24,774 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:26,782 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:28,786 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:30,789 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:31,914 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:14:31,916 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:14:31,916 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:14:31,920 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:14:32,793 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:14:33,252 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:14:33,253 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:14:34,796 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:36,800 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:38,803 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:40,807 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:42,810 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:44,814 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:46,377 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:14:46,662 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:14:46,664 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:14:46,664 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:14:46,669 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:14:46,818 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:14:48,284 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:14:48,284 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:14:48,822 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:50,825 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:52,829 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:54,833 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:56,838 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:14:58,841 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:00,844 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:01,355 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:15:01,356 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:15:01,357 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:15:01,360 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:15:01,846 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:15:02,848 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:03,314 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:15:03,315 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:15:10,864 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:12,867 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:14,871 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:16,511 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:15:16,874 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:18,361 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:15:18,361 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:15:18,877 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:20,881 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:22,884 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:23,704 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:15:23,706 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:15:23,706 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:15:23,711 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:15:23,887 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:15:24,890 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:26,893 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:28,897 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:30,901 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:32,905 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:33,400 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:15:33,401 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:15:34,909 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:36,913 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:38,385 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:15:38,386 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:15:38,386 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:15:38,390 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:15:38,916 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:15:40,920 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:42,923 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:44,928 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:46,641 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:15:46,931 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:48,442 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:15:48,442 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:15:48,937 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:50,940 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:53,043 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:15:53,044 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:15:53,045 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:15:53,048 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:15:53,945 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:15:56,951 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:15:58,955 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:00,958 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:02,961 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:03,498 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:16:03,499 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:16:04,965 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:06,968 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:08,971 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:10,975 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:11,598 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:16:11,599 DEBUG   SenderThread:458 [sender.py:send():235] send: history
+2022-03-31 09:16:11,600 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:16:11,605 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:16:11,977 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:16:12,979 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:14,982 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:16,307 WARNING MainThread:458 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-03-31 09:16:16,701 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:16:16,702 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:16:16,767 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:16:16,986 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:18,527 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:16:18,528 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:16:18,990 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:27,075 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:16:27,075 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:16:27,079 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:16:27,079 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:16:27,087 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:16:29,007 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:31,696 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:16:31,696 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:16:31,768 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:16:31,768 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:16:31,807 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:16:31,808 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:16:31,808 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:16:31,808 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:16:31,813 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:16:31,814 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:16:32,092 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:16:32,092 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:16:33,014 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:16:33,585 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:16:33,585 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:16:48,643 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:16:48,643 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:17:00,227 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:17:03,707 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:17:03,707 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:17:18,785 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:17:18,786 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:17:30,353 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:17:33,836 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:17:33,837 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:17:48,944 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:17:48,944 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:18:00,482 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:18:04,007 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:18:04,007 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:18:19,081 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:18:19,081 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:18:30,612 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:18:34,138 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: stop_status
+2022-03-31 09:18:34,139 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: stop_status
+2022-03-31 09:18:44,155 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:18:44,155 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:18:44,172 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:18:44,172 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:18:44,172 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:18:44,774 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:18:44,774 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:18:44,782 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:18:44,784 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:18:44,785 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:18:44,791 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:18:44,791 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:18:44,896 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:18:44,896 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:18:44,897 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: pause
+2022-03-31 09:18:44,897 INFO    HandlerThread:458 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-03-31 09:18:44,901 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: resume
+2022-03-31 09:18:44,901 INFO    HandlerThread:458 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-03-31 09:18:44,903 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:18:44,905 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:18:44,952 DEBUG   SenderThread:458 [sender.py:send():235] send: telemetry
+2022-03-31 09:18:44,955 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: partial_history
+2022-03-31 09:18:44,955 DEBUG   SenderThread:458 [sender.py:send():235] send: telemetry
+2022-03-31 09:18:45,227 DEBUG   SenderThread:458 [sender.py:send():235] send: exit
+2022-03-31 09:18:45,227 INFO    SenderThread:458 [sender.py:send_exit():371] handling exit code: 0
+2022-03-31 09:18:45,228 INFO    SenderThread:458 [sender.py:send_exit():373] handling runtime: 284
+2022-03-31 09:18:45,229 INFO    Thread-7  :458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:18:45,230 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:45,231 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:18:45,232 INFO    SenderThread:458 [sender.py:send_exit():379] send defer
+2022-03-31 09:18:45,232 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:45,233 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:45,233 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 0
+2022-03-31 09:18:45,233 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:45,233 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-31 09:18:45,234 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 1
+2022-03-31 09:18:45,234 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:45,234 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 1
+2022-03-31 09:18:45,316 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:45,317 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-31 09:18:45,317 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 2
+2022-03-31 09:18:45,317 DEBUG   SenderThread:458 [sender.py:send():235] send: stats
+2022-03-31 09:18:45,318 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:45,318 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 2
+2022-03-31 09:18:45,318 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:45,318 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-31 09:18:45,318 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 3
+2022-03-31 09:18:45,318 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:45,319 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 3
+2022-03-31 09:18:45,319 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:45,319 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-31 09:18:45,319 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 4
+2022-03-31 09:18:45,319 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:45,319 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 4
+2022-03-31 09:18:45,320 DEBUG   SenderThread:458 [sender.py:send():235] send: summary
+2022-03-31 09:18:45,322 INFO    SenderThread:458 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-03-31 09:18:45,323 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:45,323 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-31 09:18:45,323 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 5
+2022-03-31 09:18:45,323 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:45,323 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 5
+2022-03-31 09:18:45,323 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:45,324 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-31 09:18:45,338 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:45,383 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 6
+2022-03-31 09:18:45,383 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:45,384 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:45,384 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 6
+2022-03-31 09:18:45,384 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:45,384 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-31 09:18:45,385 INFO    SenderThread:458 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-31 09:18:45,485 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:46,232 INFO    SenderThread:458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:18:46,232 INFO    SenderThread:458 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/config.yaml
+2022-03-31 09:18:46,233 INFO    SenderThread:458 [dir_watcher.py:finish():313] scan: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files
+2022-03-31 09:18:46,233 INFO    SenderThread:458 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/config.yaml config.yaml
+2022-03-31 09:18:46,234 INFO    SenderThread:458 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json wandb-summary.json
+2022-03-31 09:18:46,237 INFO    SenderThread:458 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/requirements.txt requirements.txt
+2022-03-31 09:18:46,241 INFO    SenderThread:458 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-metadata.json wandb-metadata.json
+2022-03-31 09:18:46,241 INFO    SenderThread:458 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log output.log
+2022-03-31 09:18:46,245 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 7
+2022-03-31 09:18:46,245 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:46,246 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:46,246 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 7
+2022-03-31 09:18:46,249 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:46,250 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-31 09:18:46,250 INFO    SenderThread:458 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-31 09:18:46,348 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:46,349 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:46,451 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:46,451 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:46,484 INFO    Thread-20 :458 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/config.yaml
+2022-03-31 09:18:46,493 INFO    Thread-21 :458 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/wandb-summary.json
+2022-03-31 09:18:46,494 INFO    Thread-23 :458 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/output.log
+2022-03-31 09:18:46,508 INFO    Thread-22 :458 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/files/requirements.txt
+2022-03-31 09:18:46,553 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:46,553 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:46,655 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:46,655 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:46,708 INFO    Thread-6  :458 [sender.py:transition_state():392] send defer: 8
+2022-03-31 09:18:46,709 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:46,709 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 8
+2022-03-31 09:18:46,709 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:46,709 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-31 09:18:46,756 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:46,808 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 9
+2022-03-31 09:18:46,808 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:46,809 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:46,809 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 9
+2022-03-31 09:18:46,809 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:46,809 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-03-31 09:18:46,810 INFO    SenderThread:458 [sender.py:transition_state():392] send defer: 10
+2022-03-31 09:18:46,810 DEBUG   SenderThread:458 [sender.py:send():235] send: final
+2022-03-31 09:18:46,810 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: defer
+2022-03-31 09:18:46,810 DEBUG   SenderThread:458 [sender.py:send():235] send: footer
+2022-03-31 09:18:46,810 INFO    HandlerThread:458 [handler.py:handle_request_defer():164] handle defer: 10
+2022-03-31 09:18:46,811 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: defer
+2022-03-31 09:18:46,811 INFO    SenderThread:458 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-03-31 09:18:46,910 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: poll_exit
+2022-03-31 09:18:46,910 DEBUG   SenderThread:458 [sender.py:send_request():249] send_request: poll_exit
+2022-03-31 09:18:46,911 INFO    SenderThread:458 [file_pusher.py:join():150] waiting for file pusher
+2022-03-31 09:18:47,065 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: sampled_history
+2022-03-31 09:18:47,067 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: get_summary
+2022-03-31 09:18:47,068 DEBUG   HandlerThread:458 [handler.py:handle_request():141] handle_request: shutdown
+2022-03-31 09:18:47,068 INFO    HandlerThread:458 [handler.py:finish():778] shutting down handler
+2022-03-31 09:18:47,810 INFO    WriterThread:458 [datastore.py:close():281] close: /content/drive/MyDrive/groom_project1/wandb/run-20220331_091344-pws7dxzj/run-pws7dxzj.wandb
+2022-03-31 09:18:47,964 INFO    SenderThread:458 [sender.py:finish():1078] shutting down sender
+2022-03-31 09:18:47,964 INFO    SenderThread:458 [file_pusher.py:finish():145] shutting down file pusher
+2022-03-31 09:18:47,964 INFO    SenderThread:458 [file_pusher.py:join():150] waiting for file pusher
+2022-03-31 09:18:47,967 INFO    MainThread:458 [internal.py:handle_exit():82] Internal process exited

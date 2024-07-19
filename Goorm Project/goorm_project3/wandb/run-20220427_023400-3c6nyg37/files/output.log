@@ -1,0 +1,11 @@
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 13538
+  Batch size = 4
+Saving model checkpoint to checkpoints/checkpoint-3385
+Configuration saved in checkpoints/checkpoint-3385/config.json
+Model weights saved in checkpoints/checkpoint-3385/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-6770] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-10155] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.

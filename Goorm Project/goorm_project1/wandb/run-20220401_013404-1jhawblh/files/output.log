@@ -1,0 +1,80 @@
+
+
+
+
+
+
+Epoch 0:   1%|          | 17/1732 [00:09<15:01,  1.90batch/s, acc=0.543, loss=0.652]
+ACCURACY for highest valid acc:  0.48828125
+
+
+
+
+
+
+Epoch 0:   2%|▏         | 34/1732 [00:21<14:58,  1.89batch/s, acc=0.727, loss=0.495]
+ACCURACY for highest valid acc:  0.6353515625
+
+
+
+
+
+
+Epoch 0:   3%|▎         | 51/1732 [00:33<14:59,  1.87batch/s, acc=0.941, loss=0.339]
+ACCURACY for highest valid acc:  0.933642578125
+
+
+
+
+
+
+Epoch 0:   4%|▍         | 68/1732 [00:45<14:24,  1.92batch/s, acc=0.941, loss=0.209]
+ACCURACY for highest valid acc:  0.94677734375
+
+
+
+
+
+Epoch 0:   5%|▍         | 85/1732 [00:57<14:35,  1.88batch/s, acc=0.949, loss=0.177]
+ACCURACY for highest valid acc:  0.954150390625
+
+
+
+
+
+Epoch 0:   6%|▌         | 102/1732 [01:09<15:35,  1.74batch/s, acc=0.961, loss=0.124]
+ACCURACY for highest valid acc:  0.960888671875
+
+
+
+
+
+Epoch 0:   7%|▋         | 119/1732 [01:21<14:05,  1.91batch/s, acc=0.938, loss=0.175]
+ACCURACY for highest valid acc:  0.96298828125
+
+
+
+
+
+Epoch 0:   8%|▊         | 136/1732 [01:33<13:47,  1.93batch/s, acc=0.969, loss=0.101]
+ACCURACY for lowest valid loss:  0.960595703125
+
+
+
+
+
+Epoch 0:   9%|▉         | 153/1732 [01:44<13:41,  1.92batch/s, acc=0.965, loss=0.108]
+ACCURACY for lowest valid loss:  0.96181640625
+
+
+
+
+
+Epoch 0:  10%|▉         | 170/1732 [01:56<13:27,  1.93batch/s, acc=0.941, loss=0.156]
+ACCURACY for highest valid acc:  0.963525390625
+
+
+
+
+
+Epoch 0:  11%|█         | 186/1732 [02:08<17:46,  1.45batch/s, acc=0.957, loss=0.124]

@@ -1,0 +1,83 @@
+
+
+
+
+
+
+Epoch 0:   1%|          | 69/6926 [00:10<16:10,  7.07batch/s, acc=0.953, loss=0.146]
+ACCURACY for highest valid acc:  0.95556640625
+
+
+
+
+
+
+
+Epoch 0:   2%|▏         | 138/6926 [00:25<17:06,  6.61batch/s, acc=0.969, loss=0.121]
+ACCURACY for highest valid acc:  0.962646484375
+
+
+
+
+
+
+Epoch 0:   3%|▎         | 207/6926 [00:40<17:03,  6.57batch/s, acc=0.984, loss=0.0506]
+ACCURACY for lowest valid loss:  0.960693359375
+
+
+
+
+
+
+Epoch 0:   4%|▍         | 276/6926 [00:55<16:20,  6.78batch/s, acc=0.969, loss=0.0934]
+ACCURACY for lowest valid loss:  0.961181640625
+
+
+
+
+
+
+
+Epoch 0:   5%|▍         | 345/6926 [01:09<16:34,  6.62batch/s, acc=0.906, loss=0.285]
+ACCURACY for highest valid acc:  0.963623046875
+
+
+
+
+
+
+
+Epoch 0:   6%|▌         | 414/6926 [01:32<16:16,  6.67batch/s, acc=0.938, loss=0.157]
+ACCURACY for highest valid acc:  0.968505859375
+
+
+
+
+
+
+Epoch 0:   7%|▋         | 483/6926 [01:47<15:39,  6.86batch/s, acc=0.938, loss=0.231]
+ACCURACY for lowest valid loss:  0.9658203125
+
+
+
+
+
+
+Epoch 0:   8%|▊         | 552/6926 [02:01<15:25,  6.88batch/s, acc=0.984, loss=0.0615]
+ACCURACY for highest valid acc:  0.96875
+
+
+
+
+
+
+
+Epoch 0:   9%|▉         | 621/6926 [02:20<15:34,  6.75batch/s, acc=0.938, loss=0.152]
+ACCURACY for lowest valid loss:  0.967529296875
+
+
+
+Epoch 0:   9%|▉         | 645/6926 [02:28<24:03,  4.35batch/s, acc=0.938, loss=0.247]
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+dataset exists => just load datasets

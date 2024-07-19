@@ -1,0 +1,60 @@
+2022-04-25 12:24:44,199 INFO    MainThread:536 [internal.py:wandb_internal():93] W&B internal server running at pid: 536, started at: 2022-04-25 12:24:44.196811
+2022-04-25 12:24:44,466 DEBUG   SenderThread:536 [sender.py:send():232] send: header
+2022-04-25 12:24:44,466 INFO    WriterThread:536 [datastore.py:open_for_write():75] open: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/run-1pwq5d2l.wandb
+2022-04-25 12:24:44,469 DEBUG   SenderThread:536 [sender.py:send():232] send: run
+2022-04-25 12:24:44,639 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: check_version
+2022-04-25 12:24:44,640 INFO    SenderThread:536 [dir_watcher.py:__init__():166] watching files in: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files
+2022-04-25 12:24:44,640 INFO    SenderThread:536 [sender.py:_start_run_threads():814] run started: 1pwq5d2l with start time 1650889483
+2022-04-25 12:24:44,641 DEBUG   SenderThread:536 [sender.py:send():232] send: summary
+2022-04-25 12:24:44,665 INFO    SenderThread:536 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-25 12:24:44,666 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: check_version
+2022-04-25 12:24:44,705 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: run_start
+2022-04-25 12:24:45,648 INFO    Thread-7  :536 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/wandb-summary.json
+2022-04-25 12:24:46,892 DEBUG   HandlerThread:536 [meta.py:__init__():35] meta init
+2022-04-25 12:24:46,893 DEBUG   HandlerThread:536 [meta.py:__init__():49] meta init done
+2022-04-25 12:24:46,893 DEBUG   HandlerThread:536 [meta.py:probe():209] probe
+2022-04-25 12:24:46,901 DEBUG   HandlerThread:536 [git.py:repo():29] git repository is invalid
+2022-04-25 12:24:46,901 DEBUG   HandlerThread:536 [meta.py:_save_pip():53] save pip
+2022-04-25 12:24:46,905 DEBUG   HandlerThread:536 [meta.py:_save_pip():67] save pip done
+2022-04-25 12:24:46,905 DEBUG   HandlerThread:536 [meta.py:probe():247] probe done
+2022-04-25 12:24:46,909 DEBUG   SenderThread:536 [sender.py:send():232] send: files
+2022-04-25 12:24:46,910 INFO    SenderThread:536 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-25 12:24:46,920 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 12:24:46,921 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 12:24:47,055 DEBUG   SenderThread:536 [sender.py:send():232] send: telemetry
+2022-04-25 12:24:47,056 DEBUG   SenderThread:536 [sender.py:send():232] send: telemetry
+2022-04-25 12:24:47,056 DEBUG   SenderThread:536 [sender.py:send():232] send: run
+2022-04-25 12:24:47,230 INFO    SenderThread:536 [sender.py:send_run():707] updated run: 1pwq5d2l
+2022-04-25 12:24:47,446 INFO    Thread-11 :536 [upload_job.py:push():137] Uploaded file /tmp/tmpm8z_tpruwandb/1axv4i6e-wandb-metadata.json
+2022-04-25 12:24:47,650 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/config.yaml
+2022-04-25 12:24:47,651 INFO    Thread-7  :536 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/requirements.txt
+2022-04-25 12:24:47,652 INFO    Thread-7  :536 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/output.log
+2022-04-25 12:24:47,653 INFO    Thread-7  :536 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/wandb-metadata.json
+2022-04-25 12:24:51,658 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/output.log
+2022-04-25 12:24:52,660 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/output.log
+2022-04-25 12:24:53,662 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/output.log
+2022-04-25 12:24:55,666 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/output.log
+2022-04-25 12:24:57,088 DEBUG   SenderThread:536 [sender.py:send():232] send: config
+2022-04-25 12:24:57,089 DEBUG   SenderThread:536 [sender.py:send():232] send: metric
+2022-04-25 12:24:57,090 DEBUG   SenderThread:536 [sender.py:send():232] send: telemetry
+2022-04-25 12:24:57,090 DEBUG   SenderThread:536 [sender.py:send():232] send: metric
+2022-04-25 12:24:57,090 WARNING SenderThread:536 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2022-04-25 12:24:57,090 DEBUG   SenderThread:536 [sender.py:send():232] send: telemetry
+2022-04-25 12:24:57,670 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/output.log
+2022-04-25 12:24:59,674 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/output.log
+2022-04-25 12:25:02,057 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 12:25:02,058 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 12:25:14,700 INFO    Thread-7  :536 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122438-1pwq5d2l/files/config.yaml
+2022-04-25 12:25:15,039 DEBUG   SenderThread:536 [sender.py:send():232] send: stats
+2022-04-25 12:25:17,214 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 12:25:17,215 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 12:25:32,350 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 12:25:32,351 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 12:25:45,169 DEBUG   SenderThread:536 [sender.py:send():232] send: stats
+2022-04-25 12:25:47,654 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 12:25:47,654 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 12:26:02,787 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 12:26:02,787 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 12:26:15,300 DEBUG   SenderThread:536 [sender.py:send():232] send: stats
+2022-04-25 12:26:17,949 DEBUG   HandlerThread:536 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 12:26:17,950 DEBUG   SenderThread:536 [sender.py:send_request():246] send_request: stop_status

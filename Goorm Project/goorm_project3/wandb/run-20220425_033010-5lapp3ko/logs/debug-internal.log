@@ -1,0 +1,226 @@
+2022-04-25 03:30:11,351 INFO    MainThread:385 [internal.py:wandb_internal():93] W&B internal server running at pid: 385, started at: 2022-04-25 03:30:11.349226
+2022-04-25 03:30:11,390 DEBUG   SenderThread:385 [sender.py:send():232] send: header
+2022-04-25 03:30:11,391 INFO    WriterThread:385 [datastore.py:open_for_write():75] open: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/run-5lapp3ko.wandb
+2022-04-25 03:30:11,394 DEBUG   SenderThread:385 [sender.py:send():232] send: run
+2022-04-25 03:30:11,576 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: check_version
+2022-04-25 03:30:11,579 INFO    SenderThread:385 [dir_watcher.py:__init__():166] watching files in: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files
+2022-04-25 03:30:11,579 INFO    SenderThread:385 [sender.py:_start_run_threads():814] run started: 5lapp3ko with start time 1650857410
+2022-04-25 03:30:11,579 DEBUG   SenderThread:385 [sender.py:send():232] send: summary
+2022-04-25 03:30:11,582 INFO    SenderThread:385 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-25 03:30:11,583 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: check_version
+2022-04-25 03:30:11,617 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: run_start
+2022-04-25 03:30:12,589 INFO    Thread-7  :385 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/wandb-summary.json
+2022-04-25 03:30:13,935 DEBUG   HandlerThread:385 [meta.py:__init__():35] meta init
+2022-04-25 03:30:13,935 DEBUG   HandlerThread:385 [meta.py:__init__():49] meta init done
+2022-04-25 03:30:13,935 DEBUG   HandlerThread:385 [meta.py:probe():209] probe
+2022-04-25 03:30:13,942 DEBUG   HandlerThread:385 [git.py:repo():29] git repository is invalid
+2022-04-25 03:30:13,943 DEBUG   HandlerThread:385 [meta.py:_save_pip():53] save pip
+2022-04-25 03:30:13,946 DEBUG   HandlerThread:385 [meta.py:_save_pip():67] save pip done
+2022-04-25 03:30:13,946 DEBUG   HandlerThread:385 [meta.py:probe():247] probe done
+2022-04-25 03:30:13,951 DEBUG   SenderThread:385 [sender.py:send():232] send: files
+2022-04-25 03:30:13,951 INFO    SenderThread:385 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-25 03:30:13,961 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 03:30:13,961 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 03:30:13,968 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:13,968 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:14,053 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:14,053 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:14,054 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:14,054 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:14,058 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:14,058 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:14,092 DEBUG   SenderThread:385 [sender.py:send():232] send: telemetry
+2022-04-25 03:30:14,092 DEBUG   SenderThread:385 [sender.py:send():232] send: telemetry
+2022-04-25 03:30:14,092 DEBUG   SenderThread:385 [sender.py:send():232] send: run
+2022-04-25 03:30:14,341 INFO    SenderThread:385 [sender.py:send_run():707] updated run: 5lapp3ko
+2022-04-25 03:30:14,341 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:14,342 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:14,455 INFO    Thread-11 :385 [upload_job.py:push():137] Uploaded file /tmp/tmppuxfwd_bwandb/36wu64vb-wandb-metadata.json
+2022-04-25 03:30:14,627 INFO    Thread-7  :385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/config.yaml
+2022-04-25 03:30:14,628 INFO    Thread-7  :385 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/requirements.txt
+2022-04-25 03:30:14,628 INFO    Thread-7  :385 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/wandb-metadata.json
+2022-04-25 03:30:14,628 INFO    Thread-7  :385 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/output.log
+2022-04-25 03:30:22,641 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:22,642 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:22,698 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:22,699 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:22,699 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:28,653 INFO    Thread-7  :385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/output.log
+2022-04-25 03:30:29,093 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 03:30:29,094 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 03:30:33,686 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:33,686 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:33,754 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:33,754 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:33,755 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:33,755 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:33,759 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:33,759 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:33,760 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:33,760 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:34,156 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:34,157 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:34,173 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:34,173 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:34,173 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:34,174 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:34,178 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:34,179 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:34,179 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:34,180 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:34,180 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:34,181 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:34,189 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:34,191 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:34,191 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:36,668 INFO    Thread-7  :385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/output.log
+2022-04-25 03:30:42,678 INFO    Thread-7  :385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/config.yaml
+2022-04-25 03:30:44,224 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 03:30:44,225 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 03:30:46,036 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:46,036 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:46,044 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:46,217 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:46,217 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:46,218 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:46,219 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:46,226 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:30:46,226 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:30:46,227 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:46,253 DEBUG   SenderThread:385 [sender.py:send():232] send: config
+2022-04-25 03:30:46,254 DEBUG   SenderThread:385 [sender.py:send():232] send: metric
+2022-04-25 03:30:46,255 DEBUG   SenderThread:385 [sender.py:send():232] send: telemetry
+2022-04-25 03:30:46,255 DEBUG   SenderThread:385 [sender.py:send():232] send: metric
+2022-04-25 03:30:46,255 WARNING SenderThread:385 [sender.py:send_metric():904] Seen metric with glob (shouldn't happen)
+2022-04-25 03:30:46,255 DEBUG   SenderThread:385 [sender.py:send():232] send: telemetry
+2022-04-25 03:30:47,034 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:30:47,035 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:30:47,136 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:30:48,689 INFO    Thread-7  :385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/output.log
+2022-04-25 03:30:59,358 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 03:30:59,358 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 03:31:08,153 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:31:08,153 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:31:08,155 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:31:08,156 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:31:08,162 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:31:08,504 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:31:08,504 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:31:08,505 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 03:31:08,505 INFO    HandlerThread:385 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 03:31:08,520 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 03:31:08,520 INFO    HandlerThread:385 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 03:31:08,520 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:31:08,580 DEBUG   SenderThread:385 [sender.py:send():232] send: telemetry
+2022-04-25 03:31:08,584 DEBUG   SenderThread:385 [sender.py:send():232] send: telemetry
+2022-04-25 03:31:09,067 DEBUG   SenderThread:385 [sender.py:send():232] send: exit
+2022-04-25 03:31:09,067 INFO    SenderThread:385 [sender.py:send_exit():368] handling exit code: 0
+2022-04-25 03:31:09,067 INFO    SenderThread:385 [sender.py:send_exit():370] handling runtime: 35
+2022-04-25 03:31:09,069 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:09,070 INFO    SenderThread:385 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-25 03:31:09,071 INFO    SenderThread:385 [sender.py:send_exit():376] send defer
+2022-04-25 03:31:09,071 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:09,072 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,072 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-25 03:31:09,072 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,072 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-04-25 03:31:09,072 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 1
+2022-04-25 03:31:09,073 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,073 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-25 03:31:09,129 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,129 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-04-25 03:31:09,129 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 2
+2022-04-25 03:31:09,129 DEBUG   SenderThread:385 [sender.py:send():232] send: stats
+2022-04-25 03:31:09,130 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,130 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-25 03:31:09,130 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,130 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-04-25 03:31:09,130 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 3
+2022-04-25 03:31:09,131 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,131 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-25 03:31:09,131 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,131 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-04-25 03:31:09,131 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 4
+2022-04-25 03:31:09,132 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,132 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-25 03:31:09,132 DEBUG   SenderThread:385 [sender.py:send():232] send: summary
+2022-04-25 03:31:09,134 INFO    SenderThread:385 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-25 03:31:09,135 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,135 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-04-25 03:31:09,135 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 5
+2022-04-25 03:31:09,136 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,136 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-25 03:31:09,136 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,136 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-04-25 03:31:09,177 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:09,362 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 6
+2022-04-25 03:31:09,362 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:09,363 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,363 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-25 03:31:09,363 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,363 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-04-25 03:31:09,363 INFO    SenderThread:385 [dir_watcher.py:finish():279] shutting down directory watcher
+2022-04-25 03:31:09,464 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:09,695 INFO    SenderThread:385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/config.yaml
+2022-04-25 03:31:09,696 INFO    SenderThread:385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/wandb-summary.json
+2022-04-25 03:31:09,696 INFO    SenderThread:385 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/output.log
+2022-04-25 03:31:09,696 INFO    SenderThread:385 [dir_watcher.py:finish():309] scan: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files
+2022-04-25 03:31:09,697 INFO    SenderThread:385 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/config.yaml config.yaml
+2022-04-25 03:31:09,697 INFO    SenderThread:385 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/wandb-summary.json wandb-summary.json
+2022-04-25 03:31:09,701 INFO    SenderThread:385 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/requirements.txt requirements.txt
+2022-04-25 03:31:09,705 INFO    SenderThread:385 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/wandb-metadata.json wandb-metadata.json
+2022-04-25 03:31:09,705 INFO    SenderThread:385 [dir_watcher.py:finish():323] scan save: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/output.log output.log
+2022-04-25 03:31:09,709 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 7
+2022-04-25 03:31:09,709 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:09,712 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:09,713 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-25 03:31:09,713 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:09,714 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-04-25 03:31:09,714 INFO    SenderThread:385 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-25 03:31:09,815 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:09,815 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:09,917 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:09,917 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:10,020 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:10,021 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:10,122 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:10,123 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:10,165 INFO    Thread-26 :385 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/wandb-summary.json
+2022-04-25 03:31:10,171 INFO    Thread-27 :385 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/requirements.txt
+2022-04-25 03:31:10,184 INFO    Thread-28 :385 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/output.log
+2022-04-25 03:31:10,194 INFO    Thread-25 :385 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/files/config.yaml
+2022-04-25 03:31:10,224 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:10,225 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:10,326 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:10,326 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:10,395 INFO    Thread-6  :385 [sender.py:transition_state():389] send defer: 8
+2022-04-25 03:31:10,395 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:10,396 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-25 03:31:10,396 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:10,396 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-04-25 03:31:10,428 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:10,839 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 9
+2022-04-25 03:31:10,840 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:10,840 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:10,841 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-25 03:31:10,841 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:10,841 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-04-25 03:31:10,841 INFO    SenderThread:385 [sender.py:transition_state():389] send defer: 10
+2022-04-25 03:31:10,842 DEBUG   SenderThread:385 [sender.py:send():232] send: final
+2022-04-25 03:31:10,842 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: defer
+2022-04-25 03:31:10,842 DEBUG   SenderThread:385 [sender.py:send():232] send: footer
+2022-04-25 03:31:10,842 INFO    HandlerThread:385 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-25 03:31:10,842 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: defer
+2022-04-25 03:31:10,842 INFO    SenderThread:385 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-04-25 03:31:10,942 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-25 03:31:10,942 DEBUG   SenderThread:385 [sender.py:send_request():246] send_request: poll_exit
+2022-04-25 03:31:10,942 INFO    SenderThread:385 [file_pusher.py:join():150] waiting for file pusher
+2022-04-25 03:31:11,299 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-25 03:31:11,301 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-25 03:31:11,301 DEBUG   HandlerThread:385 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-25 03:31:11,302 INFO    HandlerThread:385 [handler.py:finish():806] shutting down handler
+2022-04-25 03:31:11,842 INFO    WriterThread:385 [datastore.py:close():279] close: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_033010-5lapp3ko/run-5lapp3ko.wandb
+2022-04-25 03:31:12,197 INFO    SenderThread:385 [sender.py:finish():1106] shutting down sender
+2022-04-25 03:31:12,198 INFO    SenderThread:385 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-25 03:31:12,198 INFO    SenderThread:385 [file_pusher.py:join():150] waiting for file pusher
+2022-04-25 03:31:12,200 INFO    MainThread:385 [internal.py:handle_exit():80] Internal process exited

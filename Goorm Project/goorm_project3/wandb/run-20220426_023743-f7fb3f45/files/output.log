@@ -1,0 +1,407 @@
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization.
+The tokenizer class you load from this checkpoint is 'GPT2Tokenizer'.
+The class this function is called from is 'PreTrainedTokenizerFast'.
+Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertModel: ['vocab_layer_norm.bias', 'vocab_projector.bias', 'vocab_transform.bias', 'vocab_transform.weight', 'vocab_projector.weight', 'vocab_layer_norm.weight']
+- This IS expected if you are initializing DistilBertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of GPT2LMHeadModel were not initialized from the model checkpoint at skt/kogpt2-base-v2 and are newly initialized: ['transformer.h.5.crossattention.c_proj.bias', 'transformer.h.6.ln_cross_attn.weight', 'transformer.h.0.ln_cross_attn.weight', 'transformer.h.10.ln_cross_attn.weight', 'transformer.h.1.crossattention.masked_bias', 'transformer.h.0.crossattention.c_proj.bias', 'transformer.h.1.ln_cross_attn.weight', 'transformer.h.9.crossattention.c_proj.weight', 'transformer.h.4.crossattention.c_proj.weight', 'transformer.h.8.crossattention.q_attn.weight', 'transformer.h.0.crossattention.q_attn.weight', 'transformer.h.4.crossattention.c_attn.weight', 'transformer.h.8.crossattention.masked_bias', 'transformer.h.1.crossattention.c_proj.weight', 'transformer.h.2.crossattention.c_attn.weight', 'transformer.h.3.crossattention.masked_bias', 'transformer.h.10.crossattention.c_proj.weight', 'transformer.h.8.crossattention.c_attn.weight', 'transformer.h.4.crossattention.c_proj.bias', 'transformer.h.3.ln_cross_attn.weight', 'transformer.h.10.crossattention.masked_bias', 'transformer.h.7.crossattention.c_attn.weight', 'transformer.h.0.crossattention.c_attn.weight', 'transformer.h.11.crossattention.bias', 'transformer.h.9.crossattention.c_attn.weight', 'transformer.h.3.crossattention.c_proj.bias', 'transformer.h.7.crossattention.bias', 'transformer.h.3.crossattention.c_proj.weight', 'transformer.h.5.crossattention.c_attn.weight', 'transformer.h.9.crossattention.q_attn.weight', 'transformer.h.6.crossattention.c_proj.weight', 'transformer.h.9.crossattention.bias', 'transformer.h.3.crossattention.bias', 'transformer.h.11.crossattention.c_proj.bias', 'transformer.h.5.crossattention.c_proj.weight', 'transformer.h.11.crossattention.q_attn.weight', 'transformer.h.8.crossattention.c_proj.bias', 'transformer.h.5.ln_cross_attn.weight', 'transformer.h.4.crossattention.masked_bias', 'transformer.h.1.crossattention.q_attn.weight', 'transformer.h.6.crossattention.bias', 'transformer.h.2.crossattention.masked_bias', 'transformer.h.4.ln_cross_attn.weight', 'transformer.h.11.crossattention.c_attn.weight', 'transformer.h.3.crossattention.c_attn.weight', 'transformer.h.10.crossattention.c_attn.weight', 'transformer.h.9.crossattention.masked_bias', 'transformer.h.0.crossattention.bias', 'transformer.h.2.ln_cross_attn.weight', 'transformer.h.9.ln_cross_attn.weight', 'transformer.h.7.crossattention.c_proj.weight', 'transformer.h.1.crossattention.c_attn.weight', 'transformer.h.5.crossattention.masked_bias', 'transformer.h.6.crossattention.q_attn.weight', 'transformer.h.7.crossattention.c_proj.bias', 'transformer.h.9.crossattention.c_proj.bias', 'transformer.h.7.ln_cross_attn.weight', 'transformer.h.11.crossattention.masked_bias', 'transformer.h.6.crossattention.c_proj.bias', 'transformer.h.7.crossattention.masked_bias', 'transformer.h.1.crossattention.c_proj.bias', 'transformer.h.4.crossattention.q_attn.weight', 'transformer.h.7.crossattention.q_attn.weight', 'transformer.h.0.crossattention.c_proj.weight', 'transformer.h.2.crossattention.q_attn.weight', 'transformer.h.8.ln_cross_attn.weight', 'transformer.h.6.crossattention.masked_bias', 'transformer.h.8.crossattention.c_proj.weight', 'transformer.h.10.crossattention.bias', 'transformer.h.2.crossattention.c_proj.bias', 'transformer.h.4.crossattention.bias', 'transformer.h.5.crossattention.bias', 'transformer.h.2.crossattention.c_proj.weight', 'transformer.h.2.crossattention.bias', 'transformer.h.5.crossattention.q_attn.weight', 'transformer.h.1.crossattention.bias', 'transformer.h.8.crossattention.bias', 'transformer.h.10.crossattention.q_attn.weight', 'transformer.h.0.crossattention.masked_bias', 'transformer.h.11.crossattention.c_proj.weight', 'transformer.h.11.ln_cross_attn.weight', 'transformer.h.3.crossattention.q_attn.weight', 'transformer.h.6.crossattention.c_attn.weight', 'transformer.h.10.crossattention.c_proj.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+['그들은 현실에 대해 지나치게 냉소적인 태도를 지니고 있었습니다.', 'They were way too much cynical to reality.']
+['그 문장이 경쾌한 리듬감을 가지고 있습니다.', 'The sentences have a quick rhythm.']
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 360000
+  Num Epochs = 10
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 8192
+  Gradient Accumulation steps = 128
+  Total optimization steps = 430
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-43
+Configuration saved in checkpoints/checkpoint-43/config.json
+Model weights saved in checkpoints/checkpoint-43/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-3022] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-6044] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-9066] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-12088] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-15110] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-18132] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-21154] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-24176] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-27198] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-86
+Configuration saved in checkpoints/checkpoint-86/config.json
+Model weights saved in checkpoints/checkpoint-86/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-30220] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-129
+Configuration saved in checkpoints/checkpoint-129/config.json
+Model weights saved in checkpoints/checkpoint-129/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-43] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-172
+Configuration saved in checkpoints/checkpoint-172/config.json
+Model weights saved in checkpoints/checkpoint-172/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-86] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-215
+Configuration saved in checkpoints/checkpoint-215/config.json
+Model weights saved in checkpoints/checkpoint-215/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-129] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-258
+Configuration saved in checkpoints/checkpoint-258/config.json
+Model weights saved in checkpoints/checkpoint-258/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-172] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-301
+Configuration saved in checkpoints/checkpoint-301/config.json
+Model weights saved in checkpoints/checkpoint-301/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-215] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-344
+Configuration saved in checkpoints/checkpoint-344/config.json
+Model weights saved in checkpoints/checkpoint-344/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-258] due to args.save_total_limit
+Deleting older checkpoint [checkpoints/checkpoint-301] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-387
+Configuration saved in checkpoints/checkpoint-387/config.json
+Model weights saved in checkpoints/checkpoint-387/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-45330] due to args.save_total_limit
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 360000
+  Batch size = 64
+Saving model checkpoint to checkpoints/checkpoint-430
+Configuration saved in checkpoints/checkpoint-430/config.json
+Model weights saved in checkpoints/checkpoint-430/pytorch_model.bin
+Deleting older checkpoint [checkpoints/checkpoint-344] due to args.save_total_limit
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from checkpoints/checkpoint-430 (score: 1.8827886581420898).
+Configuration saved in checkpoints/asede-v2_ep10_lr0.0001_934/config.json
+Model weights saved in checkpoints/asede-v2_ep10_lr0.0001_934/pytorch_model.bin
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['얼마큼 나를 버려야 하니 서럽게 우는 내 맘 들리니 널 미친 듯 안고 싶은데 너 없이 나 견디지 못해', 'How much more do I have to throw myself away? Can you hear my sobbing heart? I want to hug you like crazy I can’t stand it without you']
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['가을 우체국 앞에서 그대를 기다리다 노오란 은행잎들이 바람에 날려가고 지나는 사람들같이 저 멀리 가는 걸 보네', 'In front of Autumn post office I was waiting for you Yellow ginko leaves were flying in the wind Like people passing by, I see them flying far away']
+***** Running training *****
+  Num examples = 360000
+  Num Epochs = 10
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 8192
+  Gradient Accumulation steps = 128
+  Total optimization steps = 430
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 8192
+  Gradient Accumulation steps = 128
+  Total optimization steps = 10
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+asede-v2_ep10_lr0.0001_754
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 32
+  Total train batch size (w. parallel, distributed & accumulation) = 2048
+  Gradient Accumulation steps = 64
+  Total optimization steps = 50
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+asede-v2_ep10_lr0.0001_754
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 32
+  Total train batch size (w. parallel, distributed & accumulation) = 2048
+  Gradient Accumulation steps = 64
+  Total optimization steps = 50
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 128
+  Total train batch size (w. parallel, distributed & accumulation) = 16384
+  Gradient Accumulation steps = 128
+  Total optimization steps = 10
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+asede-v2_ep10_lr0.0001_754
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 128
+  Total train batch size (w. parallel, distributed & accumulation) = 32768
+  Gradient Accumulation steps = 256
+  Total optimization steps = 10
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+asede-v2_ep10_lr0.0001_754
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 64
+  Total train batch size (w. parallel, distributed & accumulation) = 16384
+  Gradient Accumulation steps = 256
+  Total optimization steps = 10
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+asede-v2_ep10_lr0.0001_754
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 32
+  Total train batch size (w. parallel, distributed & accumulation) = 2048
+  Gradient Accumulation steps = 64
+  Total optimization steps = 50
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+asede-v2_ep10_lr0.0001_754
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 32
+  Total train batch size (w. parallel, distributed & accumulation) = 512
+  Gradient Accumulation steps = 16
+  Total optimization steps = 230
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+asede-v2_ep10_lr0.0001_754
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 32
+  Total train batch size (w. parallel, distributed & accumulation) = 512
+  Gradient Accumulation steps = 16
+  Total optimization steps = 230
+asede-v2_ep10_lr0.0001_214
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 32
+  Total train batch size (w. parallel, distributed & accumulation) = 512
+  Gradient Accumulation steps = 16
+  Total optimization steps = 230
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 256
+  Gradient Accumulation steps = 32
+  Total optimization steps = 470
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+asede-v2_ep10_lr0.0001_754
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 32
+  Gradient Accumulation steps = 4
+  Total optimization steps = 3800
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+asede-v2_ep10_lr0.0001_754
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 30450
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12179
+  Batch size = 4
+['그들은 현실에 대해 지나치게 냉소적인 태도를 지니고 있었습니다.', 'They were way too much cynical to reality.']
+['그 문장이 경쾌한 리듬감을 가지고 있습니다.', 'The sentences have a quick rhythm.']
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12179
+  Num Epochs = 10
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 30450
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12179
+  Batch size = 4
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12177
+  Num Epochs = 10
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 30450
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+***** Running Evaluation *****
+  Num examples = 12177
+  Batch size = 4
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['우리 이제 안녕', 'Now goodbye']
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 12177
+  Num Epochs = 10
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 30450
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f045c6e0d10>> (for pre_run_cell):
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['이제 함께 걸어요 조금은 어색하겠지만 이제 혼자가 아니에요 무거운 짐들 같이 들어 줄게요', 'Let’s walk together. It might be a little awkward I’m not alone anymore. I’ll carry heavy things with you']
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f045c6e0d10>> (for post_run_cell):
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f045c6e0d10>> (for pre_run_cell):
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f045c6e0d10>> (for post_run_cell):

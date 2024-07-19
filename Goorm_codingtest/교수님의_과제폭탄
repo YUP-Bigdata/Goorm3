@@ -1,0 +1,39 @@
+#교수님의 과제 폭탄 정답은 아님. 도출한 가장 가까운 답.
+N = int(input())
+date = []
+
+for i in range(1,N+1):
+    first, second = map(str, input().split())
+    first_1, first_2 = first.split('/')
+    second_1, second_2 = second.split('/')
+    first = (int(first_1)*100)+int(first_2)
+    second = (int(second_1)*100)+int(second_2)
+    date.append([(first),(second)])
+
+date1 = sorted(date, key = lambda x:x[0])
+
+for p in range(0,len(date1)-1):
+  if date1[p][0] == date1[p+1][0] and date1[p][1] < date1[p+1][1]:
+        temp = date1[p]
+        date1[p] = date1[p+1]
+        date1[p+1] = temp
+
+date2=[]
+
+for j in range(0,len(date1)):
+    date2.append([[date1[j][0],j+1],[date1[j][1],-(j+1)]])
+
+date3 = sorted(date2, key = lambda x:x[1], reverse=True)
+
+test = []
+
+for k in range(0,len(date2)):
+    test.append(date2[k][1])
+    if test[0][1] == date3[k][1][1]:
+        test.pop()
+
+    
+if len(test) == 0:
+    print('Yes')
+else:
+    print('No')

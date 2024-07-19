@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+Epoch 0:   1%|          | 17/1732 [00:13<20:58,  1.36batch/s, acc=0.676, loss=0.603]
+ACCURACY for highest valid acc:  0.542578125
+
+
+
+
+
+
+Epoch 0:   2%|▏         | 30/1732 [00:27<26:10,  1.08batch/s, acc=0.715, loss=0.59]
+./dump_models_tokenizer/bert-base-uncased.p
+model exists => just load model
+./dump_models_tokenizer/bert-base-uncased.p
+model exists => just load model
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

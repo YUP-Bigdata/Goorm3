@@ -1,0 +1,55 @@
+Some weights of the model checkpoint at monologg/kobigbird-bert-base were not used when initializing BigBirdForQuestionAnswering: ['cls.predictions.decoder.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.seq_relationship.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.bias', 'cls.predictions.decoder.bias', 'bert.pooler.bias', 'bert.pooler.weight', 'cls.predictions.transform.dense.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight']
+- This IS expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BigBirdForQuestionAnswering were not initialized from the model checkpoint at monologg/kobigbird-bert-base and are newly initialized: ['qa_classifier.output.dense.bias', 'qa_classifier.qa_outputs.weight', 'qa_classifier.qa_outputs.bias', 'qa_classifier.output.dense.weight', 'qa_classifier.output.LayerNorm.bias', 'qa_classifier.output.LayerNorm.weight', 'qa_classifier.intermediate.dense.weight', 'qa_classifier.intermediate.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of Samples: 12037 243425 100268
+Number of Train Samples: 10834 219083 90242
+Number of Dev Samples: 1203 24342 10026
+Number of Train Samples: 38643
+Number of Dev Samples: 4293
+['1800', '만', '원']
+tensor([[    2, 12649,  5339,  ...,     0,     0,     0],
+        [    2, 21290,  7032,  ...,     0,     0,     0],
+        [    2, 21014,  4627,  ...,     0,     0,     0],
+        [    2,  6874, 10535,  ...,  2873,   518,     3]])
+torch.Size([4, 407])
+['guid', 'context', 'question', 'position', 'input_ids', 'token_type_ids', 'start', 'end', 'attention_mask']
+Epoch 0 ===============================================================================================================
+Attention type 'block_sparse' is not possible if sequence_length: 276 <= num global tokens: 2 * config.block_size + min. num sliding tokens: 3 * config.block_size + config.num_random_blocks * config.block_size + additional buffer: config.num_random_blocks * config.block_size = 704 with config.block_size = 64, config.num_random_blocks = 3. Changing attention type to 'original_full'...
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 404, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 225, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 230, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 394, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 225, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 230, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f64745c83d0>> (for pre_run_cell):
+['기조', '강', '연', '을', '시작', '으로', '국가', '별', '주제', '관', '련', '사례', '발', '표', ',', '그룹', '토론', '및', '전체', '총', '회', ',', "'", '청소년', '선언', '문', "'", '작성', '및', '채택', '등', '다양', '한', '프로그램', '을', '운영', '한다', '.']

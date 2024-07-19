@@ -1,0 +1,4509 @@
+wandb_version: 1
+
+_n_gpu:
+  desc: null
+  value: 1
+_name_or_path:
+  desc: null
+  value: ''
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.15
+    framework: huggingface
+    huggingface_version: 4.18.0
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    m:
+    - 1: train/global_step
+      6:
+      - 3
+    - 1: gradients/decoder\.transformer\.ln_f\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.ln_f\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.ln_f\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.ln_f\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.ln_f\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.ln_f\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_fc\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_fc\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_fc\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_fc\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_fc\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.mlp\.c_fc\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.q_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.q_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.q_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.q_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.q_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.crossattention\.q_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_cross_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_cross_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_cross_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_cross_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_cross_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_cross_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.attn\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.5\.ln_1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_fc\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_fc\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_fc\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_fc\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_fc\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.mlp\.c_fc\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.q_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.q_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.q_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.q_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.q_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.crossattention\.q_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_cross_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_cross_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_cross_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_cross_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_cross_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_cross_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.attn\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.4\.ln_1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_fc\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_fc\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_fc\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_fc\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_fc\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.mlp\.c_fc\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.q_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.q_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.q_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.q_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.q_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.crossattention\.q_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_cross_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_cross_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_cross_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_cross_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_cross_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_cross_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.attn\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.3\.ln_1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_fc\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_fc\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_fc\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_fc\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_fc\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.mlp\.c_fc\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.q_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.q_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.q_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.q_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.q_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.crossattention\.q_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_cross_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_cross_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_cross_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_cross_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_cross_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_cross_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.attn\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.2\.ln_1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_fc\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_fc\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_fc\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_fc\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_fc\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.mlp\.c_fc\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.q_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.q_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.q_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.q_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.q_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.crossattention\.q_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_cross_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_cross_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_cross_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_cross_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_cross_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_cross_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.attn\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.1\.ln_1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_fc\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_fc\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_fc\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_fc\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_fc\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.mlp\.c_fc\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_2\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_2\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_2\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_2\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_2\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_2\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.q_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.q_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.q_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.q_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.q_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.crossattention\.q_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_cross_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_cross_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_cross_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_cross_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_cross_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_cross_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_proj\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_proj\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_proj\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_proj\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_proj\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_proj\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_attn\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_attn\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_attn\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_attn\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_attn\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.attn\.c_attn\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_1\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_1\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_1\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_1\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_1\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.h\.0\.ln_1\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.wpe\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.wpe\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.wpe\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.wte\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.wte\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/decoder\.transformer\.wte\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.11\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.10\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.9\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.8\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.7\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.6\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.5\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.4\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.3\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.2\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.1\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.intermediate\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.intermediate\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.intermediate\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.intermediate\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.intermediate\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.intermediate\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.dense\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.dense\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.dense\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.dense\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.dense\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.output\.dense\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.value\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.value\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.value\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.value\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.value\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.value\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.key\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.key\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.key\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.key\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.key\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.key\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.query\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.query\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.query\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.query\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.query\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.encoder\.layer\.0\.attention\.self\.query\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.LayerNorm\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.LayerNorm\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.LayerNorm\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.LayerNorm\.bias._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.LayerNorm\.bias.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.LayerNorm\.bias.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.position_embeddings\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.position_embeddings\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.position_embeddings\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.token_type_embeddings\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.token_type_embeddings\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.token_type_embeddings\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.word_embeddings\.weight._type
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.word_embeddings\.weight.values
+      5: 1
+      6:
+      - 1
+    - 1: gradients/encoder\.embeddings\.word_embeddings\.weight.bins
+      5: 1
+      6:
+      - 1
+    - 1: train/loss
+      5: 1
+      6:
+      - 1
+    - 1: train/learning_rate
+      5: 1
+      6:
+      - 1
+    - 1: train/epoch
+      5: 1
+      6:
+      - 1
+    python_version: 3.7.13
+    start_time: 1650797419
+    t:
+      1:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 11
+      - 12
+      - 49
+      - 53
+      - 55
+      3:
+      - 1
+      - 7
+      4: 3.7.13
+      5: 0.12.15
+      6: 4.18.0
+      8:
+      - 1
+      - 5
+adafactor:
+  desc: null
+  value: false
+adam_beta1:
+  desc: null
+  value: 0.9
+adam_beta2:
+  desc: null
+  value: 0.999
+adam_epsilon:
+  desc: null
+  value: 1.0e-08
+add_cross_attention:
+  desc: null
+  value: false
+architectures:
+  desc: null
+  value: null
+bad_words_ids:
+  desc: null
+  value: null
+bf16:
+  desc: null
+  value: false
+bf16_full_eval:
+  desc: null
+  value: false
+bos_token_id:
+  desc: null
+  value: null
+chunk_size_feed_forward:
+  desc: null
+  value: 0
+cross_attention_hidden_size:
+  desc: null
+  value: null
+data_seed:
+  desc: null
+  value: None
+dataloader_drop_last:
+  desc: null
+  value: false
+dataloader_num_workers:
+  desc: null
+  value: 1
+dataloader_pin_memory:
+  desc: null
+  value: true
+ddp_bucket_cap_mb:
+  desc: null
+  value: None
+ddp_find_unused_parameters:
+  desc: null
+  value: None
+debug:
+  desc: null
+  value: '[]'
+decoder:
+  desc: null
+  value:
+    _name_or_path: distilgpt2
+    _num_labels: 1
+    activation_function: gelu_new
+    add_cross_attention: true
+    architectures:
+    - GPT2LMHeadModel
+    attn_pdrop: 0.1
+    bad_words_ids: null
+    bos_token_id: 50256
+    chunk_size_feed_forward: 0
+    cross_attention_hidden_size: null
+    decoder_start_token_id: null
+    diversity_penalty: 0.0
+    do_sample: false
+    early_stopping: false
+    embd_pdrop: 0.1
+    encoder_no_repeat_ngram_size: 0
+    eos_token_id: 50256
+    exponential_decay_length_penalty: null
+    finetuning_task: null
+    forced_bos_token_id: null
+    forced_eos_token_id: null
+    id2label:
+      '0': LABEL_0
+    initializer_range: 0.02
+    is_decoder: true
+    is_encoder_decoder: false
+    label2id:
+      LABEL_0: 0
+    layer_norm_epsilon: 1.0e-05
+    length_penalty: 1.0
+    max_length: 20
+    min_length: 0
+    model_type: gpt2
+    n_ctx: 1024
+    n_embd: 768
+    n_head: 12
+    n_inner: null
+    n_layer: 6
+    n_positions: 1024
+    no_repeat_ngram_size: 0
+    num_beam_groups: 1
+    num_beams: 1
+    num_return_sequences: 1
+    output_attentions: false
+    output_hidden_states: false
+    output_scores: false
+    pad_token_id: null
+    prefix: null
+    problem_type: null
+    pruned_heads: {}
+    remove_invalid_values: false
+    reorder_and_upcast_attn: false
+    repetition_penalty: 1.0
+    resid_pdrop: 0.1
+    return_dict: true
+    return_dict_in_generate: false
+    scale_attn_by_inverse_layer_idx: false
+    scale_attn_weights: true
+    sep_token_id: null
+    summary_activation: null
+    summary_first_dropout: 0.1
+    summary_proj_to_labels: true
+    summary_type: cls_index
+    summary_use_proj: true
+    task_specific_params:
+      text-generation:
+        do_sample: true
+        max_length: 50
+    temperature: 1.0
+    tie_encoder_decoder: false
+    tie_word_embeddings: true
+    tokenizer_class: null
+    top_k: 50
+    top_p: 1.0
+    torch_dtype: null
+    torchscript: false
+    transformers_version: 4.18.0
+    typical_p: 1.0
+    use_bfloat16: false
+    use_cache: true
+    vocab_size: 50257
+decoder_start_token_id:
+  desc: null
+  value: 50256
+deepspeed:
+  desc: null
+  value: None
+disable_tqdm:
+  desc: null
+  value: false
+diversity_penalty:
+  desc: null
+  value: 0.0
+do_eval:
+  desc: null
+  value: true
+do_predict:
+  desc: null
+  value: false
+do_sample:
+  desc: null
+  value: false
+do_train:
+  desc: null
+  value: true
+early_stopping:
+  desc: null
+  value: false
+encoder:
+  desc: null
+  value:
+    _name_or_path: monologg/kobert
+    add_cross_attention: false
+    architectures:
+    - BertModel
+    attention_probs_dropout_prob: 0.1
+    bad_words_ids: null
+    bos_token_id: null
+    chunk_size_feed_forward: 0
+    classifier_dropout: null
+    cross_attention_hidden_size: null
+    decoder_start_token_id: null
+    diversity_penalty: 0.0
+    do_sample: false
+    early_stopping: false
+    encoder_no_repeat_ngram_size: 0
+    eos_token_id: null
+    exponential_decay_length_penalty: null
+    finetuning_task: null
+    forced_bos_token_id: null
+    forced_eos_token_id: null
+    hidden_act: gelu
+    hidden_dropout_prob: 0.1
+    hidden_size: 768
+    id2label:
+      '0': LABEL_0
+      '1': LABEL_1
+    initializer_range: 0.02
+    intermediate_size: 3072
+    is_decoder: false
+    is_encoder_decoder: false
+    label2id:
+      LABEL_0: 0
+      LABEL_1: 1
+    layer_norm_eps: 1.0e-12
+    length_penalty: 1.0
+    max_length: 20
+    max_position_embeddings: 512
+    min_length: 0
+    model_type: bert
+    no_repeat_ngram_size: 0
+    num_attention_heads: 12
+    num_beam_groups: 1
+    num_beams: 1
+    num_hidden_layers: 12
+    num_return_sequences: 1
+    output_attentions: false
+    output_hidden_states: false
+    output_scores: false
+    pad_token_id: 1
+    position_embedding_type: absolute
+    prefix: null
+    problem_type: null
+    pruned_heads: {}
+    remove_invalid_values: false
+    repetition_penalty: 1.0
+    return_dict: true
+    return_dict_in_generate: false
+    sep_token_id: null
+    task_specific_params: null
+    temperature: 1.0
+    tie_encoder_decoder: false
+    tie_word_embeddings: true
+    tokenizer_class: null
+    top_k: 50
+    top_p: 1.0
+    torch_dtype: null
+    torchscript: false
+    transformers_version: 4.18.0
+    type_vocab_size: 2
+    typical_p: 1.0
+    use_bfloat16: false
+    use_cache: true
+    vocab_size: 8002
+encoder_no_repeat_ngram_size:
+  desc: null
+  value: 0
+eos_token_id:
+  desc: null
+  value: null
+eval_accumulation_steps:
+  desc: null
+  value: None
+eval_batch_size:
+  desc: null
+  value: 4
+eval_delay:
+  desc: null
+  value: 0
+eval_steps:
+  desc: null
+  value: None
+evaluation_strategy:
+  desc: null
+  value: epoch
+exponential_decay_length_penalty:
+  desc: null
+  value: null
+finetuning_task:
+  desc: null
+  value: null
+forced_bos_token_id:
+  desc: null
+  value: null
+forced_eos_token_id:
+  desc: null
+  value: null
+fp16:
+  desc: null
+  value: true
+fp16_backend:
+  desc: null
+  value: auto
+fp16_full_eval:
+  desc: null
+  value: false
+fp16_opt_level:
+  desc: null
+  value: O1
+generation_max_length:
+  desc: null
+  value: None
+generation_num_beams:
+  desc: null
+  value: None
+gradient_accumulation_steps:
+  desc: null
+  value: 1
+gradient_checkpointing:
+  desc: null
+  value: false
+greater_is_better:
+  desc: null
+  value: false
+group_by_length:
+  desc: null
+  value: false
+half_precision_backend:
+  desc: null
+  value: amp
+hub_model_id:
+  desc: null
+  value: None
+hub_strategy:
+  desc: null
+  value: every_save
+hub_token:
+  desc: null
+  value: <HUB_TOKEN>
+id2label:
+  desc: null
+  value:
+    '0': LABEL_0
+    '1': LABEL_1
+ignore_data_skip:
+  desc: null
+  value: false
+is_decoder:
+  desc: null
+  value: false
+is_encoder_decoder:
+  desc: null
+  value: true
+label2id:
+  desc: null
+  value:
+    LABEL_0: 0
+    LABEL_1: 1
+label_names:
+  desc: null
+  value: None
+label_smoothing_factor:
+  desc: null
+  value: 0.0
+learning_rate:
+  desc: null
+  value: 5.0e-05
+length_column_name:
+  desc: null
+  value: length
+length_penalty:
+  desc: null
+  value: 1.0
+load_best_model_at_end:
+  desc: null
+  value: true
+local_rank:
+  desc: null
+  value: -1
+log_level:
+  desc: null
+  value: -1
+log_level_replica:
+  desc: null
+  value: -1
+log_on_each_node:
+  desc: null
+  value: true
+logging_dir:
+  desc: null
+  value: checkpoints/runs/Apr24_10-51-42_fee6d9b06bd1
+logging_first_step:
+  desc: null
+  value: false
+logging_nan_inf_filter:
+  desc: null
+  value: true
+logging_steps:
+  desc: null
+  value: 500
+logging_strategy:
+  desc: null
+  value: steps
+lr_scheduler_type:
+  desc: null
+  value: linear
+max_grad_norm:
+  desc: null
+  value: 1.0
+max_length:
+  desc: null
+  value: 20
+max_steps:
+  desc: null
+  value: -1
+metric_for_best_model:
+  desc: null
+  value: loss
+min_length:
+  desc: null
+  value: 0
+model_type:
+  desc: null
+  value: encoder-decoder
+mp_parameters:
+  desc: null
+  value: ''
+no_cuda:
+  desc: null
+  value: false
+no_repeat_ngram_size:
+  desc: null
+  value: 0
+num_beam_groups:
+  desc: null
+  value: 1
+num_beams:
+  desc: null
+  value: 1
+num_return_sequences:
+  desc: null
+  value: 1
+num_train_epochs:
+  desc: null
+  value: 10
+optim:
+  desc: null
+  value: adamw_hf
+output_attentions:
+  desc: null
+  value: false
+output_dir:
+  desc: null
+  value: checkpoints
+output_hidden_states:
+  desc: null
+  value: false
+output_scores:
+  desc: null
+  value: false
+overwrite_output_dir:
+  desc: null
+  value: false
+pad_token_id:
+  desc: null
+  value: 50256
+past_index:
+  desc: null
+  value: -1
+per_device_eval_batch_size:
+  desc: null
+  value: 4
+per_device_train_batch_size:
+  desc: null
+  value: 4
+per_gpu_eval_batch_size:
+  desc: null
+  value: None
+per_gpu_train_batch_size:
+  desc: null
+  value: None
+predict_with_generate:
+  desc: null
+  value: false
+prediction_loss_only:
+  desc: null
+  value: false
+prefix:
+  desc: null
+  value: null
+problem_type:
+  desc: null
+  value: null
+pruned_heads:
+  desc: null
+  value: {}
+push_to_hub:
+  desc: null
+  value: false
+push_to_hub_model_id:
+  desc: null
+  value: None
+push_to_hub_organization:
+  desc: null
+  value: None
+push_to_hub_token:
+  desc: null
+  value: <PUSH_TO_HUB_TOKEN>
+remove_invalid_values:
+  desc: null
+  value: false
+remove_unused_columns:
+  desc: null
+  value: true
+repetition_penalty:
+  desc: null
+  value: 1.0
+report_to:
+  desc: null
+  value: '[''wandb'']'
+resume_from_checkpoint:
+  desc: null
+  value: None
+return_dict:
+  desc: null
+  value: true
+return_dict_in_generate:
+  desc: null
+  value: false
+run_name:
+  desc: null
+  value: test2
+save_on_each_node:
+  desc: null
+  value: false
+save_steps:
+  desc: null
+  value: 500
+save_strategy:
+  desc: null
+  value: epoch
+save_total_limit:
+  desc: null
+  value: 2
+seed:
+  desc: null
+  value: 42
+sep_token_id:
+  desc: null
+  value: null
+sharded_ddp:
+  desc: null
+  value: '[]'
+skip_memory_metrics:
+  desc: null
+  value: true
+sortish_sampler:
+  desc: null
+  value: false
+task_specific_params:
+  desc: null
+  value: null
+temperature:
+  desc: null
+  value: 1.0
+tf32:
+  desc: null
+  value: None
+tie_encoder_decoder:
+  desc: null
+  value: false
+tie_word_embeddings:
+  desc: null
+  value: true
+tokenizer_class:
+  desc: null
+  value: null
+top_k:
+  desc: null
+  value: 50
+top_p:
+  desc: null
+  value: 1.0
+torch_dtype:
+  desc: null
+  value: null
+torchscript:
+  desc: null
+  value: false
+tpu_metrics_debug:
+  desc: null
+  value: false
+tpu_num_cores:
+  desc: null
+  value: None
+train_batch_size:
+  desc: null
+  value: 4
+transformers_version:
+  desc: null
+  value: null
+typical_p:
+  desc: null
+  value: 1.0
+use_bfloat16:
+  desc: null
+  value: false
+use_legacy_prediction_loop:
+  desc: null
+  value: false
+warmup_ratio:
+  desc: null
+  value: 0.1
+warmup_steps:
+  desc: null
+  value: 0
+weight_decay:
+  desc: null
+  value: 0.0
+xpu_backend:
+  desc: null
+  value: None

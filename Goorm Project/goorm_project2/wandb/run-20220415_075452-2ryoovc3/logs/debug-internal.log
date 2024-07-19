@@ -1,0 +1,241 @@
+2022-04-15 07:54:53,252 INFO    MainThread:372 [internal.py:wandb_internal():95] W&B internal server running at pid: 372, started at: 2022-04-15 07:54:53.249785
+2022-04-15 07:54:54,379 DEBUG   SenderThread:372 [sender.py:send():235] send: header
+2022-04-15 07:54:54,379 INFO    WriterThread:372 [datastore.py:open_for_write():77] open: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/run-2ryoovc3.wandb
+2022-04-15 07:54:54,382 DEBUG   SenderThread:372 [sender.py:send():235] send: run
+2022-04-15 07:54:54,475 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: check_version
+2022-04-15 07:54:54,476 INFO    SenderThread:372 [dir_watcher.py:__init__():169] watching files in: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files
+2022-04-15 07:54:54,476 INFO    SenderThread:372 [sender.py:_start_run_threads():815] run started: 2ryoovc3 with start time 1650009292
+2022-04-15 07:54:54,476 DEBUG   SenderThread:372 [sender.py:send():235] send: summary
+2022-04-15 07:54:54,478 INFO    SenderThread:372 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-15 07:54:54,479 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: check_version
+2022-04-15 07:54:54,540 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: run_start
+2022-04-15 07:54:55,486 INFO    Thread-7  :372 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/wandb-summary.json
+2022-04-15 07:54:56,858 DEBUG   HandlerThread:372 [meta.py:__init__():37] meta init
+2022-04-15 07:54:56,859 DEBUG   HandlerThread:372 [meta.py:__init__():51] meta init done
+2022-04-15 07:54:56,859 DEBUG   HandlerThread:372 [meta.py:probe():211] probe
+2022-04-15 07:54:56,867 DEBUG   HandlerThread:372 [git.py:repo():33] git repository is invalid
+2022-04-15 07:54:56,867 DEBUG   HandlerThread:372 [meta.py:_save_pip():55] save pip
+2022-04-15 07:54:56,870 DEBUG   HandlerThread:372 [meta.py:_save_pip():69] save pip done
+2022-04-15 07:54:56,871 DEBUG   HandlerThread:372 [meta.py:probe():249] probe done
+2022-04-15 07:54:56,877 DEBUG   SenderThread:372 [sender.py:send():235] send: files
+2022-04-15 07:54:56,877 INFO    SenderThread:372 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-15 07:54:56,890 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:54:56,891 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:54:56,907 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:54:56,907 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:54:56,975 DEBUG   SenderThread:372 [sender.py:send():235] send: telemetry
+2022-04-15 07:54:56,977 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:54:56,977 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:54:56,977 DEBUG   SenderThread:372 [sender.py:send():235] send: telemetry
+2022-04-15 07:54:56,978 DEBUG   SenderThread:372 [sender.py:send():235] send: run
+2022-04-15 07:54:56,978 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:54:56,980 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:54:56,992 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:54:56,992 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:54:56,993 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:54:56,993 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:54:56,997 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:54:56,998 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:54:57,063 INFO    SenderThread:372 [sender.py:send_run():710] updated run: 2ryoovc3
+2022-04-15 07:54:57,063 DEBUG   SenderThread:372 [sender.py:send():235] send: telemetry
+2022-04-15 07:54:57,063 DEBUG   SenderThread:372 [sender.py:send():235] send: config
+2022-04-15 07:54:57,063 DEBUG   SenderThread:372 [sender.py:send():235] send: config
+2022-04-15 07:54:57,063 DEBUG   SenderThread:372 [sender.py:send():235] send: config
+2022-04-15 07:54:57,063 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:54:57,064 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:54:57,064 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:54:57,259 INFO    Thread-11 :372 [upload_job.py:push():137] Uploaded file /tmp/tmp19rcnjuswandb/3fo0w0hb-wandb-metadata.json
+2022-04-15 07:54:57,500 INFO    Thread-7  :372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/config.yaml
+2022-04-15 07:54:57,501 INFO    Thread-7  :372 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/requirements.txt
+2022-04-15 07:54:57,502 INFO    Thread-7  :372 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/wandb-metadata.json
+2022-04-15 07:54:57,503 INFO    Thread-7  :372 [dir_watcher.py:_on_file_created():217] file/dir created: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/output.log
+2022-04-15 07:54:58,447 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:54:58,447 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:54:58,514 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:54:58,514 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:54:58,515 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:55:11,977 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:55:11,977 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:55:24,547 INFO    Thread-7  :372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/config.yaml
+2022-04-15 07:55:26,018 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:55:26,018 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:55:26,043 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:55:26,086 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:55:26,086 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:55:27,041 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:55:27,041 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:55:36,771 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:55:36,771 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:55:36,842 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:55:36,842 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:55:36,843 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:55:36,843 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:55:36,853 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:55:36,853 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:55:36,854 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:55:36,854 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:55:36,854 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:55:36,861 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:55:36,861 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:55:36,861 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:55:36,862 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:55:42,102 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:55:42,102 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:55:44,123 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:55:44,123 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:55:44,197 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:55:44,197 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:55:44,197 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:55:44,198 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:55:44,202 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:55:44,203 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:55:44,203 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:55:44,204 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:55:47,591 INFO    Thread-7  :372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/output.log
+2022-04-15 07:55:57,163 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:55:57,163 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:56:12,226 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:56:12,227 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:56:12,335 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:56:27,287 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:56:27,287 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:56:42,349 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:56:42,350 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:56:42,469 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:56:57,411 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:56:57,411 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:57:12,607 DEBUG   SenderThread:372 [sender.py:send():235] send: stats
+2022-04-15 07:57:17,411 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:57:17,412 DEBUG   SenderThread:372 [sender.py:send_request():249] send_request: stop_status
+2022-04-15 07:57:26,553 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:26,554 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:26,569 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:26,569 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:26,582 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:26,582 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:26,677 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:26,678 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:26,678 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:26,678 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:26,689 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:26,689 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:26,689 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:26,690 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:26,699 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:26,699 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:26,708 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:26,708 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:26,729 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:26,729 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:26,729 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:26,729 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:26,736 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:26,736 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:26,747 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:26,747 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:26,758 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:26,759 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:27,748 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:27,748 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:27,771 INFO    Thread-7  :372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/output.log
+2022-04-15 07:57:29,178 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:29,179 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:29,182 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:29,182 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:29,191 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:29,192 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:29,192 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:57:29,192 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:57:29,201 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: resume
+2022-04-15 07:57:29,201 INFO    HandlerThread:372 [handler.py:handle_request_resume():670] starting system metrics thread
+2022-04-15 07:57:31,779 INFO    Thread-7  :372 [dir_watcher.py:_on_file_modified():230] file/dir modified: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/output.log
+2022-04-15 07:57:37,412 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:57:50,627 ERROR   SenderThread:372 [retry.py:__call__():126] Retry attempt failed:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.7/http/client.py", line 1373, in getresponse
+    response.begin()
+  File "/usr/lib/python3.7/http/client.py", line 319, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.7/http/client.py", line 280, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/usr/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/usr/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/util/retry.py", line 368, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/packages/six.py", line 686, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/usr/local/lib/python3.7/dist-packages/urllib3/connectionpool.py", line 306, in _raise_timeout
+    raise ReadTimeoutError(self, url, "Read timed out. (read timeout=%s)" % timeout_value)
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/lib/retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/internal/internal_api.py", line 141, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/usr/local/lib/python3.7/dist-packages/requests/api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/requests/adapters.py", line 529, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2022-04-15 07:57:56,920 WARNING FileStreamThread:372 [file_stream.py:request_with_retry():599] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/lee-jun-yup/test_project/2ryoovc3/file_stream. func: <bound method Session.post of <requests.sessions.Session object at 0x7f5fc316f490>>, args: ('https://api.wandb.ai/files/lee-jun-yup/test_project/2ryoovc3/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 11, 'content': ['{"system.gpu.0.gpu": 0.0, "system.gpu.0.memory": 0.0, "system.gpu.0.memoryAllocated": 9.9, "system.gpu.0.temp": 37.0, "system.gpu.0.powerWatts": 34.45, "system.gpu.0.powerPercent": 13.78, "system.cpu": 13.17, "system.memory": 8.5, "system.disk": 24.4, "system.proc.memory.availableMB": 47788.33, "system.proc.memory.rssMB": 503.71, "system.proc.memory.percent": 0.96, "system.proc.cpu.threads": 28.0, "system.network.sent": 5165738, "system.network.recv": 758802707, "_wandb": true, "_timestamp": 1650009402, "_runtime": 110}']}}, 'dropped': 0}}
+2022-04-15 07:57:57,412 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:58:16,763 WARNING MainThread:372 [internal.py:wandb_internal():155] Internal process interrupt: 1
+2022-04-15 07:58:17,131 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: pause
+2022-04-15 07:58:17,131 INFO    HandlerThread:372 [handler.py:handle_request_pause():679] stopping system metrics thread
+2022-04-15 07:58:17,343 WARNING MainThread:372 [internal.py:wandb_internal():155] Internal process interrupt: 2
+2022-04-15 07:58:17,343 ERROR   MainThread:372 [internal.py:wandb_internal():158] Internal process interrupted.
+2022-04-15 07:58:17,413 DEBUG   HandlerThread:372 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-15 07:58:17,413 INFO    HandlerThread:372 [handler.py:finish():790] shutting down handler
+2022-04-15 07:58:18,231 INFO    WriterThread:372 [datastore.py:close():281] close: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/run-2ryoovc3.wandb
+2022-04-15 07:58:42,973 INFO    SenderThread:372 [sender.py:finish():1107] shutting down sender
+2022-04-15 07:58:42,973 INFO    SenderThread:372 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-15 07:58:43,793 INFO    SenderThread:372 [dir_watcher.py:finish():313] scan: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files
+2022-04-15 07:58:43,794 INFO    SenderThread:372 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/config.yaml config.yaml
+2022-04-15 07:58:43,795 INFO    SenderThread:372 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/wandb-summary.json wandb-summary.json
+2022-04-15 07:58:43,798 INFO    SenderThread:372 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/requirements.txt requirements.txt
+2022-04-15 07:58:43,805 INFO    SenderThread:372 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/wandb-metadata.json wandb-metadata.json
+2022-04-15 07:58:43,805 INFO    SenderThread:372 [dir_watcher.py:finish():327] scan save: /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/output.log output.log
+2022-04-15 07:58:43,811 INFO    SenderThread:372 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-15 07:58:43,811 INFO    SenderThread:372 [file_pusher.py:join():150] waiting for file pusher
+2022-04-15 07:58:44,186 INFO    Thread-32 :372 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/config.yaml
+2022-04-15 07:58:44,197 INFO    Thread-33 :372 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/wandb-summary.json
+2022-04-15 07:58:44,198 INFO    Thread-35 :372 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/output.log
+2022-04-15 07:58:44,213 INFO    Thread-34 :372 [upload_job.py:push():137] Uploaded file /content/drive/MyDrive/groom_project2/wandb/run-20220415_075452-2ryoovc3/files/requirements.txt
+2022-04-15 07:58:44,875 INFO    MainThread:372 [internal.py:handle_exit():82] Internal process exited

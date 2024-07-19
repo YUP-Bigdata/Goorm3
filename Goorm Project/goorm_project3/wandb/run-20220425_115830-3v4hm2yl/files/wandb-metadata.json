@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-04-25T11:58:34.138592",
+    "startedAt": "2022-04-25T11:58:30.698082",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-40fc4a6c-326c-4786-92bc-21dce5850dfb.json"
+    ],
+    "state": "running",
+    "program": "DistilBERT_KoGPT2_NMT.ipynb",
+    "colab": "https://colab.research.google.com/notebook#fileId=1cQ4DOkp4fX9JIy2AeOs7z9vF-wKCW2vH",
+    "host": "ea6cd839cd87",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

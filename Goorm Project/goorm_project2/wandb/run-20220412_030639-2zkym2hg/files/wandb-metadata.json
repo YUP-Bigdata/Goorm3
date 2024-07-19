@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-04-12T03:06:44.171928",
+    "startedAt": "2022-04-12T03:06:39.113011",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-d2023c7b-f03a-4979-bf3f-a9eef87c5bed.json"
+    ],
+    "state": "running",
+    "program": "baselinecode_fixing_kobigbird.ipynb",
+    "colab": "https://colab.research.google.com/notebook#fileId=17zJSU9eygfp_AqPVsg7HcTe1SM86GoyW",
+    "host": "8ef33e9dc0d0",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

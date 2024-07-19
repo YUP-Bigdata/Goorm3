@@ -1,0 +1,12 @@
+.ipynb_checkpoints
+__pycache__
+best_model0.875
+best_model1.0
+best_models
+datasets
+dump_datasets
+dump_models_tokenizer
+scores
+submissions
+wandb
+stdout.txt

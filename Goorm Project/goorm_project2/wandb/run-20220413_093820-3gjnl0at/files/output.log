@@ -1,0 +1,106 @@
+Some weights of the model checkpoint at monologg/kobigbird-bert-base were not used when initializing BigBirdForQuestionAnswering: ['bert.pooler.weight', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'bert.pooler.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.bias', 'cls.predictions.decoder.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias']
+- This IS expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BigBirdForQuestionAnswering were not initialized from the model checkpoint at monologg/kobigbird-bert-base and are newly initialized: ['qa_classifier.output.dense.weight', 'qa_classifier.intermediate.dense.bias', 'qa_classifier.output.dense.bias', 'qa_classifier.qa_outputs.bias', 'qa_classifier.output.LayerNorm.weight', 'qa_classifier.output.LayerNorm.bias', 'qa_classifier.intermediate.dense.weight', 'qa_classifier.qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of Samples: 12037 243425 100268
+Number of Train Samples: 10834 219083 90242
+Number of Dev Samples: 1203 24342 10026
+Number of Train Samples: 25557
+Number of Dev Samples: 2839
+['와', '쿠', '이', '히데', '아', '키']
+{'guid': 'd2764543b0a84596942b34071541bed4', 'context_original': '시범 경기에서는 16이닝을 던져 15실점을 기록하는 등 성적이 좋지 않았지만 본인으로서는 처음으로 개막전 선발 투수로 지명되었다. 요코하마 고등학교의 후배이기도 한 사이타마 세이부 라이온스의 와쿠이 히데아키도 개막전 선발로 등판해 5이닝까지 노히트로 처리하였지만 7회에 2점 홈런을 허용하면서 역전당했다. 타선에서도 1점을 따는데만 그쳐 3안타 2실점을 기록하여 패전 투수가 되었다. 그 외에도 다르빗슈 유, 이와쿠마 히사시도 개막전 선발 투수로서 등판하였지만 모두 패전 투수가 되었기 때문에 개막전 투수가 3명 모두 완투패를 당한 것이어서 50년 만에 일본 프로 야구에서의 진기록이 나왔다.nn정규 시즌에서는 팀내 최다인 13승을 올려 203.2 이닝의 완투 7개, 무볼넷 경기 4차례, 탈삼진 192개, WHIP은 1.02의 좋은 성적을 남겼다. 그러나 피홈런 개수가 증가되면서 29개가 나와 11패를 기록했다. 오릭스 버펄로스 전에서는 7전 7승이라는 기대 이상의 성적을 나타냈고 최종전에서도 승리해 팀을 클라이맥스 시리즈 진출에 기여했다.nn클라이맥스 시리즈 파이널 스테이지에서는 후쿠오카 소프트뱅크 호크스와 상대하면서 시즌에서는 평균자책점이 3.32였지만 0승 4패라는 최악의 성적을 남겼다. 그러나 퍼스트 스테이지 1차전(세이부전, 7과 0/3이닝, 2실점)에서 1실점 완투 승리를 거뒀고 최종전인 6차전에서도 4개의 피안타와 완봉 승리를 거두는 등 클라이맥스 시리즈 사상 시즌 3위였던 팀이 처음으로 일본 시리즈 진출에 기여하여 자신도 파이널 스테이지 MVP에 선정되었다. 일본 시리즈에서도 1차전과 6차전에 선발 등판해 1차전에서는 2실점 호투하여 승리해 자신으로서는 처음으로 일본 시리즈의 승리 투수가 되었다.', 'context_position': [(0, 2), (3, 5), (5, 7), (7, 8), (9, 11), (11, 12), (12, 13), (13, 14), (15, 17), (18, 20), (20, 21), (21, 22), (22, 23), (24, 26), (26, 27), (27, 28), (29, 30), (31, 33), (33, 34), (35, 36), (36, 37), (38, 39), (39, 40), (40, 42), (43, 45), (45, 47), (47, 48), (48, 49), (50, 52), (52, 54), (55, 58), (59, 61), (62, 64), (64, 65), (66, 68), (68, 69), (69, 70), (70, 71), (71, 72), (73, 77), (78, 82), (82, 83), (84, 86), (86, 87), (87, 88), (88, 89), (90, 91), (92, 94), (94, 95), (95, 96), (97, 99), (99, 100), (101, 104), (104, 105), (105, 106), (107, 108), (108, 109), (109, 110), (111, 113), (113, 114), (114, 115), (115, 116), (117, 120), (121, 123), (123, 124), (125, 127), (127, 128), (129, 130), (130, 131), (131, 132), (132, 133), (133, 134), (135, 136), (136, 138), (138, 139), (140, 142), (142, 143), (143, 144), (144, 146), (147, 148), (148, 149), (149, 150), (151, 152), (152, 153), (154, 156), (156, 157), (158, 160), (160, 162), (162, 163), (164, 166), (166, 167), (167, 168), (168, 169), (169, 170), (171, 173), (173, 175), (175, 176), (177, 178), (178, 179), (179, 180), (181, 182), (182, 184), (184, 185), (186, 188), (189, 190), (190, 191), (191, 192), (193, 194), (194, 195), (195, 196), (196, 197), (198, 200), (200, 202), (203, 205), (206, 208), (208, 209), (210, 211), (211, 212), (212, 213), (213, 214), (215, 216), (217, 218), (218, 220), (221, 223), (223, 224), (224, 225), (226, 227), (227, 228), (229, 231), (231, 232), (232, 233), (234, 236), (236, 237), (237, 238), (239, 242), (243, 245), (246, 248), (248, 249), (249, 250), (251, 253), (253, 254), (254, 255), (255, 257), (258, 260), (261, 263), (264, 266), (266, 267), (268, 269), (269, 270), (270, 271), (272, 274), (274, 275), (276, 279), (280, 282), (282, 283), (284, 285), (285, 286), (287, 289), (290, 291), (291, 292), (292, 293), (293, 294), (295, 297), (298, 299), (299, 301), (301, 302), (303, 305), (305, 306), (307, 308), (308, 309), (310, 312), (313, 315), (316, 318), (318, 320), (320, 321), (322, 323), (323, 324), (324, 325), (325, 326), (327, 329), (329, 330), (330, 331), (331, 332), (332, 333), (333, 334), (334, 335), (336, 338), (338, 340), (340, 341), (342, 343), (343, 344), (345, 347), (347, 348), (349, 351), (351, 352), (352, 353), (354, 356), (357, 360), (360, 361), (361, 362), (363, 365), (365, 366), (367, 368), (368, 369), (370, 371), (371, 372), (372, 373), (374, 375), (375, 376), (376, 377), (378, 380), (381, 382), (382, 384), (384, 385), (386, 387), (387, 388), (388, 389), (390, 393), (393, 394), (394, 395), (396, 397), (397, 398), (398, 400), (400, 401), (402, 403), (403, 404), (404, 406), (406, 407), (408, 409), (409, 410), (411, 413), (413, 414), (415, 417), (417, 418), (418, 419), (420, 423), (424, 425), (425, 426), (426, 427), (428, 430), (430, 431), (432, 434), (434, 435), (435, 436), (436, 437), (438, 440), (440, 441), (441, 442), (443, 445), (446, 448), (448, 449), (449, 450), (451, 453), (453, 454), (454, 455), (455, 456), (457, 460), (461, 462), (462, 463), (463, 465), (466, 467), (467, 469), (469, 470), (471, 472), (472, 473), (474, 475), (475, 476), (476, 477), (477, 479), (480, 482), (483, 485), (485, 486), (487, 489), (489, 490), (491, 494), (494, 495), (496, 498), (498, 499), (499, 501), (501, 502), (503, 505), (505, 506), (507, 508), (508, 509), (510, 513), (513, 515), (516, 519), (520, 522), (522, 523), (524, 526), (526, 527), (527, 528), (528, 529), (529, 530), (530, 531), (531, 533), (533, 534), (534, 536), (537, 540), (541, 544), (545, 549), (549, 551), (551, 552), (553, 557), (558, 561), (561, 562), (562, 563), (564, 566), (566, 567), (567, 568), (569, 571), (571, 573), (573, 574), (575, 577), (577, 579), (579, 580), (581, 583), (583, 584), (584, 585), (585, 586), (586, 587), (588, 589), (589, 590), (590, 592), (592, 593), (593, 595), (596, 597), (597, 598), (599, 600), (600, 601), (601, 603), (604, 606), (606, 607), (608, 610), (610, 611), (612, 614), (614, 615), (615, 616), (617, 620), (621, 624), (625, 629), (630, 631), (631, 632), (632, 633), (633, 634), (634, 636), (636, 637), (637, 638), (638, 639), (640, 641), (641, 642), (643, 644), (644, 645), (645, 646), (646, 647), (647, 648), (648, 649), (650, 651), (651, 652), (652, 653), (653, 654), (654, 656), (657, 658), (658, 659), (659, 660), (661, 662), (662, 663), (664, 666), (666, 667), (668, 670), (670, 671), (672, 674), (674, 675), (675, 676), (677, 678), (678, 679), (679, 680), (680, 682), (682, 683), (684, 685), (685, 686), (686, 687), (688, 689), (689, 690), (690, 691), (691, 692), (693, 694), (694, 695), (696, 698), (698, 699), (700, 702), (702, 703), (704, 705), (706, 709), (709, 711), (712, 715), (716, 718), (719, 721), (722, 723), (723, 724), (724, 725), (725, 726), (727, 728), (728, 729), (730, 732), (732, 734), (735, 737), (738, 741), (742, 744), (744, 745), (746, 748), (748, 750), (751, 753), (753, 754), (755, 758), (759, 763), (764, 767), (767, 768), (769, 771), (771, 772), (772, 773), (773, 774), (774, 775), (776, 778), (779, 782), (782, 784), (784, 785), (786, 787), (787, 788), (788, 789), (789, 790), (791, 792), (792, 793), (793, 794), (794, 795), (796, 798), (799, 801), (801, 802), (803, 804), (804, 805), (805, 806), (806, 808), (808, 809), (810, 811), (811, 812), (812, 813), (814, 816), (816, 818), (819, 821), (821, 822), (823, 825), (825, 827), (827, 828), (828, 829), (830, 832), (832, 834), (835, 837), (838, 841), (841, 842), (843, 845), (846, 848), (848, 849), (850, 851), (851, 852), (852, 853), (853, 854)], 'question_original': '개막전에서 3안타 2실점을 기록해서 패한 선수는?', 'context': ['시범', '경기', '에서', '는', '16', '이', '닝', '을', '던져', '15', '실', '점', '을', '기록', '하', '는', '등', '성적', '이', '좋', '지', '않', '았', '지만', '본인', '으로', '서', '는', '처음', '으로', '개막전', '선발', '투수', '로', '지명', '되', '었', '다', '.', '요코하마', '고등학교', '의', '후배', '이', '기', '도', '한', '사이', '타', '마', '세이', '부', '라이온', '스', '의', '와', '쿠', '이', '히데', '아', '키', '도', '개막전', '선발', '로', '등판', '해', '5', '이', '닝', '까', '지', '노', '히트', '로', '처리', '하', '였', '지만', '7', '회', '에', '2', '점', '홈런', '을', '허용', '하면', '서', '역전', '당', '했', '다', '.', '타선', '에서', '도', '1', '점', '을', '따', '는데', '만', '그쳐', '3', '안', '타', '2', '실', '점', '을', '기록', '하여', '패전', '투수', '가', '되', '었', '다', '.', '그', '외', '에도', '다르', '빗', '슈', '유', ',', '이와', '쿠', '마', '히사', '시', '도', '개막전', '선발', '투수', '로', '서', '등판', '하', '였', '지만', '모두', '패전', '투수', '가', '되', '었', '기', '때문', '에', '개막전', '투수', '가', '3', '명', '모두', '완', '투', '패', '를', '당한', '것', '이어', '서', '50', '년', '만', '에', '일본', '프로', '야구', '에서', '의', '진', '기', '록', '이', '나왔', '다', '.', 'n', 'n', '정', '규', '시즌', '에서', '는', '팀', '내', '최다', '인', '13', '승', '을', '올려', '203', '.', '2', '이닝', '의', '완', '투', '7', '개', ',', '무', '볼', '넷', '경기', '4', '차례', ',', '탈', '삼', '진', '192', '개', ',', 'W', 'H', 'IP', '은', '1', '.', '02', '의', '좋', '은', '성적', '을', '남겼', '다', '.', '그러나', '피', '홈', '런', '개수', '가', '증가', '되', '면', '서', '29', '개', '가', '나와', '11', '패', '를', '기록', '했', '다', '.', '오릭스', '버', '펄', '로스', '전', '에서', '는', '7', '전', '7', '승', '이', '라는', '기대', '이상', '의', '성적', '을', '나타냈', '고', '최종', '전', '에서', '도', '승리', '해', '팀', '을', '클라이', '맥스', '시리즈', '진출', '에', '기여', '했', '다', '.', 'n', 'n', '클라', '이', '맥스', '시리즈', '파이널', '스테이지', '에서', '는', '후쿠오카', '소프트', '뱅', '크', '호크', '스', '와', '상대', '하면', '서', '시즌', '에서', '는', '평균', '자', '책', '점', '이', '3', '.', '32', '였', '지만', '0', '승', '4', '패', '라는', '최악', '의', '성적', '을', '남겼', '다', '.', '그러나', '퍼스트', '스테이지', '1', '차', '전', '(', '세이', '부', '전', ',', '7', '과', '0', '/', '3', '이', '닝', ',', '2', '실', '점', ')', '에서', '1', '실', '점', '완', '투', '승리', '를', '거뒀', '고', '최종', '전', '인', '6', '차', '전', '에서', '도', '4', '개', '의', '피', '안', '타', '와', '완', '봉', '승리', '를', '거두', '는', '등', '클라이', '맥스', '시리즈', '사상', '시즌', '3', '위', '였', '던', '팀', '이', '처음', '으로', '일본', '시리즈', '진출', '에', '기여', '하여', '자신', '도', '파이널', '스테이지', 'MVP', '에', '선정', '되', '었', '다', '.', '일본', '시리즈', '에서', '도', '1', '차', '전', '과', '6', '차', '전', '에', '선발', '등판', '해', '1', '차', '전', '에서', '는', '2', '실', '점', '호투', '하여', '승리', '해', '자신', '으로', '서', '는', '처음', '으로', '일본', '시리즈', '의', '승리', '투수', '가', '되', '었', '다', '.'], 'question': ['개막전', '##에서', '3', '##안', '##타', '2', '##실', '##점', '##을', '기록', '##해서', '패한', '선수', '##는', '?'], 'answers': [{'start': 55, 'end': 60}]}
+Attention type 'block_sparse' is not possible if sequence_length: 639 <= num global tokens: 2 * config.block_size + min. num sliding tokens: 3 * config.block_size + config.num_random_blocks * config.block_size + additional buffer: config.num_random_blocks * config.block_size = 704 with config.block_size = 64, config.num_random_blocks = 3. Changing attention type to 'original_full'...
+tensor([[    2,   700, 13766,  ...,     0,     0,     0],
+        [    2, 30476,  4604,  ...,  2873,   518,     3],
+        [    2, 24491, 16675,  ...,     0,     0,     0],
+        [    2, 12066,  4649,  ...,     0,     0,     0]])
+torch.Size([4, 429])
+['guid', 'context', 'question', 'position', 'input_ids', 'token_type_ids', 'start', 'end', 'attention_mask']
+Epoch 0 ===============================================================================================================
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7ff0ee293050>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1328, in __del__
+    self._shutdown_workers()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1301, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 499) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py", line 2882, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-30-2182631b0ba8>", line 65, in <module>
+    dev_loss.append(loss.item())
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py", line 1823, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/ultratb.py", line 1132, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/ultratb.py", line 313, in wrapped
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/ultratb.py", line 358, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/usr/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/usr/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/usr/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/usr/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/usr/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/usr/lib/python3.7/posixpath.py", line 428, in _joinrealpath
+    newpath = join(path, name)
+  File "/usr/lib/python3.7/posixpath.py", line 89, in join
+    elif not path or path.endswith(sep):
+KeyboardInterrupt
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 125, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 404, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 225, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 230, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface.py", line 114, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 394, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 225, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 230, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

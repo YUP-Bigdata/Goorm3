@@ -1,0 +1,94 @@
+2022-04-25 10:35:32,681 INFO    MainThread:1012 [internal.py:wandb_internal():93] W&B internal server running at pid: 1012, started at: 2022-04-25 10:35:32.679148
+2022-04-25 10:35:35,137 DEBUG   SenderThread:1012 [sender.py:send():232] send: header
+2022-04-25 10:35:35,137 INFO    WriterThread:1012 [datastore.py:open_for_write():75] open: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/run-2i6httov.wandb
+2022-04-25 10:35:35,140 DEBUG   SenderThread:1012 [sender.py:send():232] send: run
+2022-04-25 10:35:35,405 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: check_version
+2022-04-25 10:35:35,406 INFO    SenderThread:1012 [dir_watcher.py:__init__():166] watching files in: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files
+2022-04-25 10:35:35,406 INFO    SenderThread:1012 [sender.py:_start_run_threads():814] run started: 2i6httov with start time 1650882931
+2022-04-25 10:35:35,407 DEBUG   SenderThread:1012 [sender.py:send():232] send: summary
+2022-04-25 10:35:35,409 INFO    SenderThread:1012 [sender.py:_save_file():946] saving file wandb-summary.json with policy end
+2022-04-25 10:35:35,410 DEBUG   SenderThread:1012 [sender.py:send_request():246] send_request: check_version
+2022-04-25 10:35:35,438 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: run_start
+2022-04-25 10:35:36,414 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/wandb-summary.json
+2022-04-25 10:35:37,684 DEBUG   HandlerThread:1012 [meta.py:__init__():35] meta init
+2022-04-25 10:35:37,685 DEBUG   HandlerThread:1012 [meta.py:__init__():49] meta init done
+2022-04-25 10:35:37,685 DEBUG   HandlerThread:1012 [meta.py:probe():209] probe
+2022-04-25 10:35:37,693 DEBUG   HandlerThread:1012 [git.py:repo():29] git repository is invalid
+2022-04-25 10:35:37,693 DEBUG   HandlerThread:1012 [meta.py:_save_pip():53] save pip
+2022-04-25 10:35:37,714 DEBUG   HandlerThread:1012 [meta.py:_save_pip():67] save pip done
+2022-04-25 10:35:37,715 DEBUG   HandlerThread:1012 [meta.py:probe():247] probe done
+2022-04-25 10:35:37,720 DEBUG   SenderThread:1012 [sender.py:send():232] send: files
+2022-04-25 10:35:37,720 INFO    SenderThread:1012 [sender.py:_save_file():946] saving file wandb-metadata.json with policy now
+2022-04-25 10:35:37,729 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 10:35:37,730 DEBUG   SenderThread:1012 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 10:35:37,735 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:37,735 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:37,801 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:37,801 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:37,802 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:37,802 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:37,813 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:37,813 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:37,814 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:37,814 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:37,822 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:37,822 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:37,956 DEBUG   SenderThread:1012 [sender.py:send():232] send: telemetry
+2022-04-25 10:35:37,956 DEBUG   SenderThread:1012 [sender.py:send():232] send: telemetry
+2022-04-25 10:35:37,957 DEBUG   SenderThread:1012 [sender.py:send():232] send: run
+2022-04-25 10:35:38,202 INFO    SenderThread:1012 [sender.py:send_run():707] updated run: 2i6httov
+2022-04-25 10:35:38,203 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:38,203 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:38,203 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:38,341 INFO    Thread-11 :1012 [upload_job.py:push():137] Uploaded file /tmp/tmpy0j23wa_wandb/3s9ck1e0-wandb-metadata.json
+2022-04-25 10:35:38,419 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/config.yaml
+2022-04-25 10:35:38,420 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/wandb-metadata.json
+2022-04-25 10:35:38,420 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/output.log
+2022-04-25 10:35:38,420 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_created():213] file/dir created: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/requirements.txt
+2022-04-25 10:35:47,647 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:47,647 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:47,674 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:47,674 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:47,674 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:48,437 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/output.log
+2022-04-25 10:35:50,440 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/output.log
+2022-04-25 10:35:52,444 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/output.log
+2022-04-25 10:35:52,957 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 10:35:52,958 DEBUG   SenderThread:1012 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 10:35:53,700 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:53,700 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:53,706 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:53,709 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:53,709 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:53,718 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:53,718 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:53,820 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:53,820 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:53,821 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:53,826 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:53,826 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:53,833 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:53,835 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:53,835 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:53,838 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:53,838 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:53,844 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:53,846 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:53,846 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:53,850 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:53,850 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:53,858 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:53,865 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: resume
+2022-04-25 10:35:53,866 INFO    HandlerThread:1012 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-04-25 10:35:53,907 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: pause
+2022-04-25 10:35:53,907 INFO    HandlerThread:1012 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-04-25 10:35:53,979 DEBUG   SenderThread:1012 [sender.py:send():232] send: stats
+2022-04-25 10:35:54,447 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/output.log
+2022-04-25 10:35:56,450 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/output.log
+2022-04-25 10:36:03,463 INFO    Thread-7  :1012 [dir_watcher.py:_on_file_modified():226] file/dir modified: /content/drive/MyDrive/goorm_project3/wandb/run-20220425_103527-2i6httov/files/config.yaml
+2022-04-25 10:36:08,181 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 10:36:08,181 DEBUG   SenderThread:1012 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 10:36:23,406 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 10:36:23,406 DEBUG   SenderThread:1012 [sender.py:send_request():246] send_request: stop_status
+2022-04-25 10:36:38,638 DEBUG   HandlerThread:1012 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-25 10:36:38,638 DEBUG   SenderThread:1012 [sender.py:send_request():246] send_request: stop_status

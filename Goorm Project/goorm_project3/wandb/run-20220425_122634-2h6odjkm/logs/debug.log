@@ -1,0 +1,303 @@
+2022-04-25 12:26:34,740 INFO    MainThread:97 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-04-25 12:26:34,741 INFO    MainThread:97 [wandb_setup.py:_flush():75] Loading settings from /content/drive/MyDrive/goorm_project3/wandb/settings
+2022-04-25 12:26:34,741 INFO    MainThread:97 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-25 12:26:34,741 INFO    MainThread:97 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-04-25 12:26:34,741 INFO    MainThread:97 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-04-25 12:26:34,741 INFO    MainThread:97 [wandb_init.py:_log_setup():437] Logging user logs to /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122634-2h6odjkm/logs/debug.log
+2022-04-25 12:26:34,742 INFO    MainThread:97 [wandb_init.py:_log_setup():438] Logging internal logs to /content/drive/MyDrive/goorm_project3/wandb/run-20220425_122634-2h6odjkm/logs/debug-internal.log
+2022-04-25 12:26:34,742 INFO    MainThread:97 [wandb_init.py:_jupyter_setup():387] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fdff0a5d5d0>
+2022-04-25 12:26:34,742 INFO    MainThread:97 [wandb_init.py:init():471] calling init triggers
+2022-04-25 12:26:34,742 INFO    MainThread:97 [wandb_init.py:init():475] wandb.init called with sweep_config: {}
+config: {}
+2022-04-25 12:26:34,743 INFO    MainThread:97 [wandb_init.py:init():524] starting backend
+2022-04-25 12:26:34,743 INFO    MainThread:97 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-04-25 12:26:34,764 INFO    MainThread:97 [backend.py:ensure_launched():217] starting backend process...
+2022-04-25 12:26:34,777 INFO    MainThread:97 [backend.py:ensure_launched():222] started backend process with pid: 377
+2022-04-25 12:26:34,779 INFO    MainThread:97 [wandb_init.py:init():533] backend started and connected
+2022-04-25 12:26:34,812 INFO    MainThread:97 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-04-25 12:26:35,419 INFO    MainThread:97 [wandb_init.py:init():597] updated telemetry
+2022-04-25 12:26:35,423 INFO    MainThread:97 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-04-25 12:26:35,911 INFO    MainThread:97 [wandb_run.py:_on_init():1923] communicating current version
+2022-04-25 12:26:35,982 INFO    MainThread:97 [wandb_run.py:_on_init():1927] got version response 
+2022-04-25 12:26:35,983 INFO    MainThread:97 [wandb_init.py:init():659] starting run threads in backend
+2022-04-25 12:26:38,770 INFO    MainThread:97 [wandb_run.py:_console_start():1897] atexit reg
+2022-04-25 12:26:38,774 INFO    MainThread:97 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.WRAP
+2022-04-25 12:26:38,775 INFO    MainThread:97 [wandb_run.py:_redirect():1807] Wrapping output streams.
+2022-04-25 12:26:38,778 INFO    MainThread:97 [wandb_run.py:_redirect():1831] Redirects installed.
+2022-04-25 12:26:38,778 INFO    MainThread:97 [wandb_init.py:init():684] run started, returning control to user process
+2022-04-25 12:26:38,782 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:26:38,782 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:26:38,794 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:26:38,796 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:26:38,797 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:26:38,803 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:26:41,039 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:26:41,039 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:26:41,045 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:03,705 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:03,705 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:03,711 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:03,728 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:03,728 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:03,734 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:04,102 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:04,103 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:06,765 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:07,037 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:07,039 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:13,368 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:13,375 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:13,376 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:14,124 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:14,134 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:14,135 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:15,499 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:27,295 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:27,295 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:27,301 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:27,505 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 12:27:27,505 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 12:27:27,514 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 12:27:27,549 INFO    MainThread:97 [wandb_run.py:_config_callback():1131] config_cb None None {'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': True, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'typical_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'exponential_decay_length_penalty': None, 'architectures': None, 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': None, 'pad_token_id': 1, 'eos_token_id': None, 'sep_token_id': None, 'decoder_start_token_id': 1, 'task_specific_params': None, 'problem_type': None, '_name_or_path': '', 'transformers_version': None, 'encoder': {'vocab_size': 30522, 'max_position_embeddings': 512, 'sinusoidal_pos_embds': False, 'n_layers': 6, 'n_heads': 12, 'dim': 768, 'hidden_dim': 3072, 'dropout': 0.1, 'attention_dropout': 0.1, 'activation': 'gelu', 'initializer_range': 0.02, 'qa_dropout': 0.1, 'seq_classif_dropout': 0.2, 'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': False, 'is_decoder': False, 'cross_attention_hidden_size': None, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'typical_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'exponential_decay_length_penalty': None, 'architectures': ['DistilBertForMaskedLM'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': None, 'pad_token_id': 0, 'eos_token_id': None, 'sep_token_id': None, 'decoder_start_token_id': None, 'task_specific_params': None, 'problem_type': None, '_name_or_path': 'distilbert-base-uncased', 'transformers_version': '4.18.0', 'tie_weights_': True, 'model_type': 'distilbert'}, 'decoder': {'vocab_size': 51200, 'n_positions': 1024, 'n_embd': 768, 'n_layer': 12, 'n_head': 12, 'n_inner': None, 'activation_function': 'gelu_new', 'resid_pdrop': 0.1, 'embd_pdrop': 0.1, 'attn_pdrop': 0.1, 'layer_norm_epsilon': 1e-05, 'initializer_range': 0.02, 'summary_type': 'cls_index', 'summary_use_proj': True, 'summary_activation': None, 'summary_first_dropout': 0.1, 'summary_proj_to_labels': True, 'scale_attn_weights': True, 'use_cache': True, 'scale_attn_by_inverse_layer_idx': False, 'reorder_and_upcast_attn': False, 'bos_token_id': 0, 'eos_token_id': 1, 'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': False, 'is_decoder': True, 'cross_attention_hidden_size': None, 'add_cross_attention': True, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'typical_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'exponential_decay_length_penalty': None, 'architectures': ['GPT2LMHeadModel'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0'}, 'label2id': {'LABEL_0': 0}, 'tokenizer_class': None, 'prefix': None, 'pad_token_id': 3, 'sep_token_id': None, 'decoder_start_token_id': None, 'task_specific_params': {'text-generation': {'do_sample': True, 'max_length': 50}}, 'problem_type': None, '_name_or_path': 'skt/kogpt2-base-v2', 'transformers_version': '4.18.0', '_num_labels': 1, 'gradient_checkpointing': False, 'n_ctx': 1024, 'author': 'Heewon Jeon(madjakarta@gmail.com)', 'created_date': '2021-04-28', 'license': 'CC-BY-NC-SA 4.0', 'model_type': 'gpt2'}, 'model_type': 'encoder-decoder', 'output_dir': 'checkpoints', 'overwrite_output_dir': False, 'do_train': True, 'do_eval': True, 'do_predict': False, 'evaluation_strategy': 'epoch', 'prediction_loss_only': False, 'per_device_train_batch_size': 4, 'per_device_eval_batch_size': 4, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'eval_delay': 0, 'learning_rate': 0.0001, 'weight_decay': 0.0, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_train_epochs': 10, 'max_steps': -1, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.1, 'warmup_steps': 0, 'log_level': -1, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': 'checkpoints/runs/Apr25_12-27-15_33a5d5aaddb8', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 500, 'logging_nan_inf_filter': True, 'save_strategy': 'epoch', 'save_steps': 500, 'save_total_limit': 10, 'save_on_each_node': False, 'no_cuda': False, 'seed': 42, 'data_seed': 'None', 'bf16': False, 'fp16': True, 'fp16_opt_level': 'O1', 'half_precision_backend': 'amp', 'bf16_full_eval': False, 'fp16_full_eval': False, 'tf32': 'None', 'local_rank': -1, 'xpu_backend': 'None', 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 'None', 'dataloader_num_workers': 1, 'past_index': -1, 'run_name': 'test2', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': True, 'metric_for_best_model': 'loss', 'greater_is_better': False, 'ignore_data_skip': False, 'sharded_ddp': '[]', 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'optim': 'adamw_hf', 'adafactor': False, 'group_by_length': False, 'length_column_name': 'length', 'report_to': "['wandb']", 'ddp_find_unused_parameters': 'None', 'ddp_bucket_cap_mb': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': False, 'resume_from_checkpoint': 'None', 'hub_model_id': 'None', 'hub_strategy': 'every_save', 'hub_token': '<HUB_TOKEN>', 'gradient_checkpointing': False, 'fp16_backend': 'auto', 'push_to_hub_model_id': 'None', 'push_to_hub_organization': 'None', 'push_to_hub_token': '<PUSH_TO_HUB_TOKEN>', '_n_gpu': 1, 'mp_parameters': '', 'sortish_sampler': False, 'predict_with_generate': False, 'generation_max_length': 'None', 'generation_num_beams': 'None', 'train_batch_size': 4, 'eval_batch_size': 4}
+2022-04-25 12:27:27,554 INFO    MainThread:97 [wandb_watch.py:watch():47] Watching
+2022-04-25 15:28:59,600 INFO    MainThread:97 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-25 15:28:59,600 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 15:28:59,608 INFO    MainThread:97 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-25 15:28:59,610 INFO    MainThread:97 [wandb_run.py:_finish():1685] finishing run lee-jun-yup/test_project/2h6odjkm
+2022-04-25 15:28:59,611 INFO    MainThread:97 [jupyter.py:save_history():435] not saving jupyter history
+2022-04-25 15:28:59,611 INFO    MainThread:97 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-25 15:28:59,611 INFO    MainThread:97 [wandb_init.py:_jupyter_teardown():369] cleaning up jupyter logic
+2022-04-25 15:28:59,611 INFO    MainThread:97 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 0
+2022-04-25 15:28:59,616 INFO    MainThread:97 [wandb_run.py:_restore():1838] restore
+2022-04-25 15:29:00,131 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 689
+}
+
+2022-04-25 15:29:00,242 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 689
+}
+
+2022-04-25 15:29:00,882 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 689
+}
+
+2022-04-25 15:29:01,552 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:01,657 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:01,760 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:01,863 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:01,966 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,069 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,172 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,275 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,378 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 689
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,481 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 8003
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,585 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,689 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,792 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,895 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:02,998 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,102 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,205 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,308 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 539633
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,411 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 660347
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,515 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 660347
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,618 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 660347
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,721 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 660347
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:03,824 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 660347
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:04,548 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 660347
+  total_bytes: 660347
+}
+
+2022-04-25 15:29:04,778 INFO    MainThread:97 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 660347
+  total_bytes: 660347
+}
+local_info {
+}
+
+2022-04-25 15:29:06,344 INFO    MainThread:97 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2022-04-25 15:29:06,358 INFO    MainThread:97 [wandb_run.py:_footer_history_summary_info():3134] rendering summary
+2022-04-25 15:29:06,365 INFO    MainThread:97 [wandb_run.py:_footer_sync_info():3057] logging synced files

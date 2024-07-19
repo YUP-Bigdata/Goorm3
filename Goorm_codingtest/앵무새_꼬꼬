@@ -1,0 +1,17 @@
+#앵무새 꼬꼬
+N = int(input())
+A = ['A','a','E','e','I','i','O','o','U','u']
+found = []
+
+for i in range(N):
+    found.append(input())
+
+for j in range(N):
+    str = found[j]
+    ans = ""
+    for k in range(len(str)):
+        if str[k] in A:
+            ans += str[k]
+    if(len(ans)==0):
+        ans = "???"
+    print(ans)

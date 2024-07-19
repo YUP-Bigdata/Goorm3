@@ -1,0 +1,87 @@
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization.
+The tokenizer class you load from this checkpoint is 'GPT2Tokenizer'.
+The class this function is called from is 'PreTrainedTokenizerFast'.
+Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertModel: ['vocab_transform.bias', 'vocab_layer_norm.bias', 'vocab_layer_norm.weight', 'vocab_projector.weight', 'vocab_projector.bias', 'vocab_transform.weight']
+- This IS expected if you are initializing DistilBertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of GPT2LMHeadModel were not initialized from the model checkpoint at skt/kogpt2-base-v2 and are newly initialized: ['transformer.h.10.crossattention.c_attn.weight', 'transformer.h.9.ln_cross_attn.weight', 'transformer.h.6.crossattention.c_attn.weight', 'transformer.h.6.crossattention.c_proj.bias', 'transformer.h.2.ln_cross_attn.weight', 'transformer.h.3.crossattention.masked_bias', 'transformer.h.8.crossattention.c_attn.weight', 'transformer.h.5.crossattention.masked_bias', 'transformer.h.5.crossattention.bias', 'transformer.h.10.crossattention.bias', 'transformer.h.9.crossattention.masked_bias', 'transformer.h.10.crossattention.q_attn.weight', 'transformer.h.10.crossattention.c_proj.weight', 'transformer.h.6.crossattention.c_proj.weight', 'transformer.h.3.crossattention.c_proj.bias', 'transformer.h.6.crossattention.q_attn.weight', 'transformer.h.5.crossattention.c_proj.weight', 'transformer.h.11.crossattention.q_attn.weight', 'transformer.h.1.crossattention.q_attn.weight', 'transformer.h.11.crossattention.c_attn.weight', 'transformer.h.4.crossattention.bias', 'transformer.h.2.crossattention.c_proj.bias', 'transformer.h.6.crossattention.masked_bias', 'transformer.h.5.crossattention.c_proj.bias', 'transformer.h.4.crossattention.c_attn.weight', 'transformer.h.0.crossattention.masked_bias', 'transformer.h.2.crossattention.bias', 'transformer.h.1.crossattention.masked_bias', 'transformer.h.4.crossattention.c_proj.weight', 'transformer.h.7.crossattention.c_proj.bias', 'transformer.h.4.crossattention.q_attn.weight', 'transformer.h.8.crossattention.c_proj.bias', 'transformer.h.11.crossattention.masked_bias', 'transformer.h.5.crossattention.c_attn.weight', 'transformer.h.8.crossattention.c_proj.weight', 'transformer.h.7.ln_cross_attn.weight', 'transformer.h.3.crossattention.c_attn.weight', 'transformer.h.7.crossattention.c_attn.weight', 'transformer.h.8.ln_cross_attn.weight', 'transformer.h.10.crossattention.c_proj.bias', 'transformer.h.1.crossattention.c_attn.weight', 'transformer.h.11.crossattention.c_proj.weight', 'transformer.h.6.ln_cross_attn.weight', 'transformer.h.9.crossattention.q_attn.weight', 'transformer.h.10.ln_cross_attn.weight', 'transformer.h.2.crossattention.c_attn.weight', 'transformer.h.8.crossattention.bias', 'transformer.h.8.crossattention.masked_bias', 'transformer.h.4.ln_cross_attn.weight', 'transformer.h.1.crossattention.c_proj.bias', 'transformer.h.9.crossattention.c_attn.weight', 'transformer.h.8.crossattention.q_attn.weight', 'transformer.h.1.ln_cross_attn.weight', 'transformer.h.0.crossattention.bias', 'transformer.h.3.crossattention.bias', 'transformer.h.6.crossattention.bias', 'transformer.h.11.crossattention.bias', 'transformer.h.7.crossattention.c_proj.weight', 'transformer.h.9.crossattention.c_proj.bias', 'transformer.h.0.crossattention.q_attn.weight', 'transformer.h.2.crossattention.masked_bias', 'transformer.h.5.ln_cross_attn.weight', 'transformer.h.11.crossattention.c_proj.bias', 'transformer.h.2.crossattention.q_attn.weight', 'transformer.h.0.crossattention.c_proj.weight', 'transformer.h.7.crossattention.masked_bias', 'transformer.h.10.crossattention.masked_bias', 'transformer.h.5.crossattention.q_attn.weight', 'transformer.h.4.crossattention.masked_bias', 'transformer.h.1.crossattention.c_proj.weight', 'transformer.h.3.crossattention.c_proj.weight', 'transformer.h.7.crossattention.q_attn.weight', 'transformer.h.9.crossattention.c_proj.weight', 'transformer.h.7.crossattention.bias', 'transformer.h.1.crossattention.bias', 'transformer.h.3.ln_cross_attn.weight', 'transformer.h.3.crossattention.q_attn.weight', 'transformer.h.11.ln_cross_attn.weight', 'transformer.h.0.crossattention.c_attn.weight', 'transformer.h.0.crossattention.c_proj.bias', 'transformer.h.4.crossattention.c_proj.bias', 'transformer.h.0.ln_cross_attn.weight', 'transformer.h.2.crossattention.c_proj.weight', 'transformer.h.9.crossattention.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+['그들은 현실에 대해 지나치게 냉소적인 태도를 지니고 있었습니다.', 'They were way too much cynical to reality.']
+['그 문장이 경쾌한 리듬감을 가지고 있습니다.', 'The sentences have a quick rhythm.']
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 360000
+  Num Epochs = 10
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 900000
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py", line 2882, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-17-a3fe76df6456>", line 2, in <module>
+    trainer.train()
+  File "/usr/local/lib/python3.7/dist-packages/transformers/trainer.py", line 1495, in train
+    self.control = self.callback_handler.on_step_end(args, self.state, self.control)
+  File "/usr/local/lib/python3.7/dist-packages/transformers/trainer_callback.py", line 369, in on_step_end
+    return self.call_event("on_step_end", args, state, control)
+  File "/usr/local/lib/python3.7/dist-packages/transformers/trainer_callback.py", line 398, in call_event
+    **kwargs,
+  File "/usr/local/lib/python3.7/dist-packages/transformers/utils/notebook.py", line 291, in on_step_end
+    force_update=self._force_next_update,
+  File "/usr/local/lib/python3.7/dist-packages/transformers/utils/notebook.py", line 162, in update
+    self.update_bar(value)
+  File "/usr/local/lib/python3.7/dist-packages/transformers/utils/notebook.py", line 180, in update_bar
+    self.display()
+  File "/usr/local/lib/python3.7/dist-packages/transformers/utils/notebook.py", line 224, in display
+    self.output.update(disp.HTML(self.html_code))
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/display.py", line 390, in update
+    update_display(obj, display_id=self.display_id, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/display.py", line 340, in update_display
+    display(obj, display_id=display_id, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/display.py", line 313, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/display.py", line 132, in publish_display_data
+    **kwargs
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_init.py", line 398, in publish
+    ipython.display_pub._orig_publish(data, metadata=metadata, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/ipykernel/zmqshell.py", line 142, in publish
+    self.pub_socket, msg, ident=self.topic,
+  File "/usr/local/lib/python3.7/dist-packages/jupyter_client/session.py", line 748, in send
+    stream.send_multipart(to_send, copy=copy)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/interactiveshell.py", line 1823, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/ultratb.py", line 1132, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/ultratb.py", line 313, in wrapped
+    return f(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/IPython/core/ultratb.py", line 358, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/usr/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/usr/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/usr/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/usr/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/usr/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/usr/lib/python3.7/posixpath.py", line 410, in _joinrealpath
+    if isabs(rest):
+  File "/usr/lib/python3.7/posixpath.py", line 66, in isabs
+    s = os.fspath(s)
+KeyboardInterrupt

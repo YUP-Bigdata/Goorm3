@@ -1,0 +1,135 @@
+2022-04-10 12:33:00,575 INFO    MainThread:96 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-04-10 12:33:00,576 INFO    MainThread:96 [wandb_setup.py:_flush():75] Loading settings from /content/drive/MyDrive/groom_project2/wandb/settings
+2022-04-10 12:33:00,576 INFO    MainThread:96 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-10 12:33:00,577 INFO    MainThread:96 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-04-10 12:33:00,577 INFO    MainThread:96 [wandb_init.py:_log_setup():438] Logging user logs to /content/drive/MyDrive/groom_project2/wandb/run-20220410_123300-h5nmohl7/logs/debug.log
+2022-04-10 12:33:00,577 INFO    MainThread:96 [wandb_init.py:_log_setup():439] Logging internal logs to /content/drive/MyDrive/groom_project2/wandb/run-20220410_123300-h5nmohl7/logs/debug-internal.log
+2022-04-10 12:33:00,577 INFO    MainThread:96 [wandb_init.py:_jupyter_setup():388] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f1c6baa0650>
+2022-04-10 12:33:00,578 INFO    MainThread:96 [wandb_init.py:init():472] calling init triggers
+2022-04-10 12:33:00,578 INFO    MainThread:96 [wandb_init.py:init():476] wandb.init called with sweep_config: {}
+config: {}
+2022-04-10 12:33:00,578 INFO    MainThread:96 [wandb_init.py:init():525] starting backend
+2022-04-10 12:33:00,578 INFO    MainThread:96 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-04-10 12:33:00,600 INFO    MainThread:96 [backend.py:ensure_launched():219] starting backend process...
+2022-04-10 12:33:00,613 INFO    MainThread:96 [backend.py:ensure_launched():225] started backend process with pid: 393
+2022-04-10 12:33:00,615 INFO    MainThread:96 [wandb_init.py:init():534] backend started and connected
+2022-04-10 12:33:00,649 INFO    MainThread:96 [wandb_run.py:_label_probe_notebook():1082] probe notebook
+2022-04-10 12:33:01,380 INFO    MainThread:96 [wandb_init.py:init():598] updated telemetry
+2022-04-10 12:33:01,384 INFO    MainThread:96 [wandb_init.py:init():629] communicating run to backend with 30 second timeout
+2022-04-10 12:33:01,906 INFO    MainThread:96 [wandb_run.py:_on_init():1922] communicating current version
+2022-04-10 12:33:01,978 INFO    MainThread:96 [wandb_run.py:_on_init():1926] got version response 
+2022-04-10 12:33:01,978 INFO    MainThread:96 [wandb_init.py:init():660] starting run threads in backend
+2022-04-10 12:33:04,820 INFO    MainThread:96 [wandb_run.py:_console_start():1896] atexit reg
+2022-04-10 12:33:04,824 INFO    MainThread:96 [wandb_run.py:_redirect():1769] redirect: SettingsConsole.WRAP
+2022-04-10 12:33:04,825 INFO    MainThread:96 [wandb_run.py:_redirect():1806] Wrapping output streams.
+2022-04-10 12:33:04,828 INFO    MainThread:96 [wandb_run.py:_redirect():1830] Redirects installed.
+2022-04-10 12:33:04,829 INFO    MainThread:96 [wandb_init.py:init():685] run started, returning control to user process
+2022-04-10 12:33:04,833 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:04,833 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:07,497 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:07,502 INFO    MainThread:96 [wandb_config.py:__setitem__():153] config set learning_rate = 1e-05 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f1c6ab3fd10>>
+2022-04-10 12:33:07,503 INFO    MainThread:96 [wandb_run.py:_config_callback():1129] config_cb learning_rate 1e-05 None
+2022-04-10 12:33:07,504 INFO    MainThread:96 [wandb_config.py:__setitem__():153] config set epochs = 10 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f1c6ab3fd10>>
+2022-04-10 12:33:07,504 INFO    MainThread:96 [wandb_run.py:_config_callback():1129] config_cb epochs 10 None
+2022-04-10 12:33:07,505 INFO    MainThread:96 [wandb_config.py:__setitem__():153] config set batch_size = {'train': 256, 'eval': 16, 'test': 256} - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f1c6ab3fd10>>
+2022-04-10 12:33:07,506 INFO    MainThread:96 [wandb_run.py:_config_callback():1129] config_cb batch_size {'train': 256, 'eval': 16, 'test': 256} None
+2022-04-10 12:33:07,506 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:07,506 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:09,697 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:09,705 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:09,705 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:11,484 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:12,610 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:12,611 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:13,716 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:38,614 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:38,614 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:38,621 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:51,252 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:51,252 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:51,257 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:51,260 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:51,261 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:51,267 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:51,316 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:51,316 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:54,084 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:56,238 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:56,238 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:56,247 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:33:56,313 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:33:56,313 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:33:59,631 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:00,000 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:00,001 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:00,069 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:00,100 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:00,118 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:01,527 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:01,556 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:01,556 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:02,753 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:02,790 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:02,791 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:03,321 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:03,327 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:03,328 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:03,722 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:03,756 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:03,757 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:04,347 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:04,360 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:04,361 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:05,040 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:05,044 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:05,044 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:05,270 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:06,230 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:06,231 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:08,300 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 12:34:08,548 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 12:34:08,548 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 12:34:18,819 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 13:08:32,702 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 13:08:32,702 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 13:08:56,142 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 13:09:08,704 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 13:09:08,704 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-10 13:09:10,986 INFO    MainThread:96 [wandb_init.py:_resume_backend():360] resuming backend
+2022-04-10 13:09:11,064 INFO    MainThread:96 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-04-10 13:09:11,065 INFO    MainThread:96 [wandb_setup.py:_flush():75] Loading settings from /content/drive/MyDrive/groom_project2/wandb/settings
+2022-04-10 13:09:11,065 INFO    MainThread:96 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-10 13:09:11,065 INFO    MainThread:96 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-04-10 13:09:11,066 INFO    MainThread:96 [wandb_init.py:_log_setup():438] Logging user logs to /content/drive/MyDrive/groom_project2/wandb/run-20220410_130911-1cacsxls/logs/debug.log
+2022-04-10 13:09:11,066 INFO    MainThread:96 [wandb_init.py:_log_setup():439] Logging internal logs to /content/drive/MyDrive/groom_project2/wandb/run-20220410_130911-1cacsxls/logs/debug-internal.log
+2022-04-10 13:09:11,067 INFO    MainThread:96 [wandb_init.py:init():472] calling init triggers
+2022-04-10 13:09:11,067 INFO    MainThread:96 [wandb_init.py:init():476] wandb.init called with sweep_config: {}
+config: {}
+2022-04-10 13:09:11,067 INFO    MainThread:96 [wandb_init.py:init():492] re-initializing run, found existing run on stack: h5nmohl7
+2022-04-10 13:09:11,083 ERROR   MainThread:96 [wandb_init.py:init():1023] error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_init.py", line 996, in init
+    run = wi.init()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_init.py", line 504, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 1677, in finish
+    return self._finish(exit_code, quiet)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 1683, in _finish
+    tel.feature.finish = True
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/lib/telemetry.py", line 43, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 571, in _telemetry_callback
+    self._telemetry_flush()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 582, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 73, in _publish_telemetry
+    self._publish(rec)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-04-10 13:09:13,127 INFO    MainThread:96 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-10 13:09:13,128 INFO    MainThread:96 [jupyter.py:save_ipynb():377] not saving jupyter notebook

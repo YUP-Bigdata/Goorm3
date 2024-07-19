@@ -1,0 +1,1956 @@
+The tokenizer class you load from this checkpoint is not the same type as the class this function is called from. It may result in unexpected tokenization.
+The tokenizer class you load from this checkpoint is 'BertTokenizer'.
+The class this function is called from is 'KoBertTokenizer'.
+Some weights of GPT2LMHeadModel were not initialized from the model checkpoint at distilgpt2 and are newly initialized: ['transformer.h.0.ln_cross_attn.weight', 'transformer.h.0.crossattention.bias', 'transformer.h.2.crossattention.bias', 'transformer.h.0.crossattention.masked_bias', 'transformer.h.1.crossattention.bias', 'transformer.h.0.crossattention.q_attn.weight', 'transformer.h.4.crossattention.masked_bias', 'transformer.h.0.crossattention.c_attn.weight', 'transformer.h.2.crossattention.c_proj.weight', 'transformer.h.3.crossattention.masked_bias', 'transformer.h.4.crossattention.c_proj.bias', 'transformer.h.1.crossattention.masked_bias', 'transformer.h.5.crossattention.bias', 'transformer.h.3.ln_cross_attn.weight', 'transformer.h.0.crossattention.c_proj.weight', 'transformer.h.4.crossattention.c_proj.weight', 'transformer.h.2.crossattention.q_attn.weight', 'transformer.h.2.ln_cross_attn.weight', 'transformer.h.5.ln_cross_attn.weight', 'transformer.h.5.crossattention.c_attn.weight', 'transformer.h.3.crossattention.bias', 'transformer.h.1.crossattention.c_proj.weight', 'transformer.h.2.crossattention.masked_bias', 'transformer.h.4.crossattention.c_attn.weight', 'transformer.h.1.crossattention.c_proj.bias', 'transformer.h.4.crossattention.bias', 'transformer.h.3.crossattention.c_proj.bias', 'transformer.h.4.ln_cross_attn.weight', 'transformer.h.0.crossattention.c_proj.bias', 'transformer.h.2.crossattention.c_attn.weight', 'transformer.h.5.crossattention.masked_bias', 'transformer.h.1.crossattention.q_attn.weight', 'transformer.h.3.crossattention.c_proj.weight', 'transformer.h.5.crossattention.c_proj.weight', 'transformer.h.1.ln_cross_attn.weight', 'transformer.h.4.crossattention.q_attn.weight', 'transformer.h.3.crossattention.q_attn.weight', 'transformer.h.5.crossattention.c_proj.bias', 'transformer.h.5.crossattention.q_attn.weight', 'transformer.h.3.crossattention.c_attn.weight', 'transformer.h.2.crossattention.c_proj.bias', 'transformer.h.1.crossattention.c_attn.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+['괜찮지만 괜찮지 않아 익숙하다고 혼잣말했지만 늘 처음인 것처럼 아파', "I'm okay but I'm not okay I told myself I'm used to it But I'm in pain like it's the first time"]
+['나도 알아 멍청한 짓인지 알고 있어 알고 있어 사람들이 손가락질할 때 난 더 더더욱 강해질 거야 난 오늘도 어김없이 꿈을 꿔 하늘을 날아오르는 자유로운 듯 손을 뻗으면 닿을 듯 더 높이 향해서 날갯짓을 해 두렵더라도', 'I know this is stupid I know, I know But when people point fingers at me I’m gonna become stronger Without fail, I’m dreaming again today As if I’m free like I’m flying in the sky As if I can reach if I hold out my hand I’ll flap my wings harder, even if I’m scared']
+{'input_ids': [2, 1100, 7330, 1100, 7318, 3155, 3757, 6642, 7799, 5100, 7177, 6160, 7880, 1550, 4468, 7119, 920, 3093, 7682, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'labels': [40, 1101, 8788, 475, 314, 1101, 407, 8788, 314, 1297, 3589, 314, 1101, 973, 284, 340, 887, 314, 1101, 287, 2356, 588, 340, 338, 262, 717, 640, 50256]}
+['[CLS]', '▁괜찮', '지만', '▁괜찮', '지', '▁않아', '▁익', '숙', '하다고', '▁혼', '잣', '말', '했지만', '▁늘', '▁처음', '인', '▁것처럼', '▁아', '파', '[SEP]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]']
+['I', "'m", 'Ġokay', 'Ġbut', 'ĠI', "'m", 'Ġnot', 'Ġokay', 'ĠI', 'Ġtold', 'Ġmyself', 'ĠI', "'m", 'Ġused', 'Ġto', 'Ġit', 'ĠBut', 'ĠI', "'m", 'Ġin', 'Ġpain', 'Ġlike', 'Ġit', "'s", 'Ġthe', 'Ġfirst', 'Ġtime', '<|endoftext|>']
+Using amp half precision backend
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Output:
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Output:
+0: sequences
+1: sequences_scores
+2: scores
+3: beam_indices
+====================================================================================================
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Output:
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+loading configuration file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/kobert",
+    "add_cross_attention": false,
+    "architectures": [
+      "BertModel"
+    ],
+    "attention_probs_dropout_prob": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "classifier_dropout": null,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_act": "gelu",
+    "hidden_dropout_prob": 0.1,
+    "hidden_size": 768,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "intermediate_size": 3072,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "layer_norm_eps": 1e-12,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "bert",
+    "no_repeat_ngram_size": 0,
+    "num_attention_heads": 12,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_hidden_layers": 12,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "position_embedding_type": "absolute",
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "type_vocab_size": 2,
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/checkpoints/checkpoint-78100.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Output:
+0: I'm sorry, but I can't see you for a long time.
+1: I'm sorry, but I can't see you for a moment.
+2: I'm sorry, but I can't see you for a second.
+3: I'm sorry, but I can't see you anymore.
+4: I'm sorry, but I can't see you until the end of October.
+====================================================================================================
+['그들은 현실에 대해 지나치게 냉소적인 태도를 지니고 있었습니다.', 'They were way too much cynical to reality.']
+['그러나 비슷한 제품들이 이미 너무 많은 것 같아.', 'But there are already too many similar products.']
+{'input_ids': [2, 1185, 5937, 5059, 6896, 1685, 517, 7324, 1456, 6607, 7206, 4722, 6116, 4297, 5770, 5439, 3871, 6701, 54, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'labels': [2990, 547, 835, 1165, 881, 28858, 284, 3950, 13, 50256]}
+['[CLS]', '▁그', '들은', '▁현실', '에', '▁대해', '▁', '지나치게', '▁냉', '소', '적인', '▁태도', '를', '▁지', '니', '고', '▁있었', '습니다', '.', '[SEP]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]', '[PAD]']
+['They', 'Ġwere', 'Ġway', 'Ġtoo', 'Ġmuch', 'Ġcynical', 'Ġto', 'Ġreality', '.', '<|endoftext|>']
+PyTorch: setting up devices
+Using amp half precision backend
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+***** Running training *****
+  Num examples = 324000
+  Num Epochs = 10
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 810000
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+/usr/local/lib/python3.7/dist-packages/transformers/models/encoder_decoder/modeling_encoder_decoder.py:530: FutureWarning: Version v4.12.0 introduces a better way to train encoder-decoder models by computing the loss inside the encoder-decoder framework rather than in the decoder itself. You may observe training discrepancies if fine-tuning a model trained with versions anterior to 4.12.0. The decoder_input_ids are now created based on the labels, no need to pass them yourself anymore.
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+loading configuration file /content/drive/MyDrive/goorm_project3/baseline/dump/best_model/config.json
+Model config EncoderDecoderConfig {
+  "architectures": [
+    "EncoderDecoderModel"
+  ],
+  "decoder": {
+    "_name_or_path": "distilgpt2",
+    "_num_labels": 1,
+    "activation_function": "gelu_new",
+    "add_cross_attention": true,
+    "architectures": [
+      "GPT2LMHeadModel"
+    ],
+    "attn_pdrop": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": 50256,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "early_stopping": false,
+    "embd_pdrop": 0.1,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": 50256,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "id2label": {
+      "0": "LABEL_0"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": true,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layer_norm_epsilon": 1e-05,
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "min_length": 0,
+    "model_type": "gpt2",
+    "n_ctx": 1024,
+    "n_embd": 768,
+    "n_head": 12,
+    "n_inner": null,
+    "n_layer": 6,
+    "n_positions": 1024,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": null,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "remove_invalid_values": false,
+    "reorder_and_upcast_attn": false,
+    "repetition_penalty": 1.0,
+    "resid_pdrop": 0.1,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "scale_attn_by_inverse_layer_idx": false,
+    "scale_attn_weights": true,
+    "sep_token_id": null,
+    "summary_activation": null,
+    "summary_first_dropout": 0.1,
+    "summary_proj_to_labels": true,
+    "summary_type": "cls_index",
+    "summary_use_proj": true,
+    "task_specific_params": {
+      "text-generation": {
+        "do_sample": true,
+        "max_length": 50
+      }
+    },
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "use_cache": true,
+    "vocab_size": 50257
+  },
+  "decoder_start_token_id": 50256,
+  "encoder": {
+    "_name_or_path": "monologg/distilkobert",
+    "activation": "gelu",
+    "add_cross_attention": false,
+    "architectures": [
+      "DistilBertForMaskedLM"
+    ],
+    "attention_dropout": 0.1,
+    "bad_words_ids": null,
+    "bos_token_id": null,
+    "chunk_size_feed_forward": 0,
+    "cross_attention_hidden_size": null,
+    "decoder_start_token_id": null,
+    "dim": 768,
+    "diversity_penalty": 0.0,
+    "do_sample": false,
+    "dropout": 0.1,
+    "early_stopping": false,
+    "encoder_no_repeat_ngram_size": 0,
+    "eos_token_id": null,
+    "exponential_decay_length_penalty": null,
+    "finetuning_task": null,
+    "forced_bos_token_id": null,
+    "forced_eos_token_id": null,
+    "hidden_dim": 3072,
+    "id2label": {
+      "0": "LABEL_0",
+      "1": "LABEL_1"
+    },
+    "initializer_range": 0.02,
+    "is_decoder": false,
+    "is_encoder_decoder": false,
+    "label2id": {
+      "LABEL_0": 0,
+      "LABEL_1": 1
+    },
+    "length_penalty": 1.0,
+    "max_length": 20,
+    "max_position_embeddings": 512,
+    "min_length": 0,
+    "model_type": "distilbert",
+    "n_heads": 12,
+    "n_layers": 3,
+    "no_repeat_ngram_size": 0,
+    "num_beam_groups": 1,
+    "num_beams": 1,
+    "num_return_sequences": 1,
+    "output_attentions": false,
+    "output_hidden_states": false,
+    "output_scores": false,
+    "pad_token_id": 1,
+    "prefix": null,
+    "problem_type": null,
+    "pruned_heads": {},
+    "qa_dropout": 0.1,
+    "remove_invalid_values": false,
+    "repetition_penalty": 1.0,
+    "return_dict": true,
+    "return_dict_in_generate": false,
+    "sep_token_id": null,
+    "seq_classif_dropout": 0.2,
+    "sinusoidal_pos_embds": false,
+    "task_specific_params": null,
+    "temperature": 1.0,
+    "tie_encoder_decoder": false,
+    "tie_weights_": true,
+    "tie_word_embeddings": true,
+    "tokenizer_class": null,
+    "top_k": 50,
+    "top_p": 1.0,
+    "torch_dtype": null,
+    "torchscript": false,
+    "transformers_version": "4.18.0",
+    "typical_p": 1.0,
+    "use_bfloat16": false,
+    "vocab_size": 8002
+  },
+  "is_encoder_decoder": true,
+  "model_type": "encoder-decoder",
+  "pad_token_id": 50256,
+  "torch_dtype": "float32",
+  "transformers_version": null
+}
+loading weights file /content/drive/MyDrive/goorm_project3/baseline/dump/best_model/pytorch_model.bin
+====================================================================================================
+Input:
+집 가고 싶다
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Output:
+0: I want to go home.
+1: I'd like to go home.
+2: I want to go to the house.
+3: I want to go to my house.
+4: I would like to go home.
+====================================================================================================
+All model checkpoint weights were used when initializing EncoderDecoderModel.
+All the weights of EncoderDecoderModel were initialized from the model checkpoint at /content/drive/MyDrive/goorm_project3/baseline/dump/best_model.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use EncoderDecoderModel for predictions without further training.
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+/content/drive/MyDrive/goorm_project3
+Requirement already satisfied: transformers in /usr/local/lib/python3.7/dist-packages (4.18.0)
+Requirement already satisfied: sentencepiece in /usr/local/lib/python3.7/dist-packages (0.1.96)
+Requirement already satisfied: wandb in /usr/local/lib/python3.7/dist-packages (0.12.15)
+Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.7/dist-packages (from transformers) (4.64.0)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.7/dist-packages (from transformers) (2019.12.20)
+Requirement already satisfied: tokenizers!=0.11.3,<0.13,>=0.11.1 in /usr/local/lib/python3.7/dist-packages (from transformers) (0.12.1)
+Requirement already satisfied: huggingface-hub<1.0,>=0.1.0 in /usr/local/lib/python3.7/dist-packages (from transformers) (0.5.1)
+Requirement already satisfied: requests in /usr/local/lib/python3.7/dist-packages (from transformers) (2.23.0)
+Requirement already satisfied: sacremoses in /usr/local/lib/python3.7/dist-packages (from transformers) (0.0.49)
+Requirement already satisfied: importlib-metadata in /usr/local/lib/python3.7/dist-packages (from transformers) (4.11.3)
+Requirement already satisfied: numpy>=1.17 in /usr/local/lib/python3.7/dist-packages (from transformers) (1.21.6)
+Requirement already satisfied: filelock in /usr/local/lib/python3.7/dist-packages (from transformers) (3.6.0)
+Requirement already satisfied: packaging>=20.0 in /usr/local/lib/python3.7/dist-packages (from transformers) (21.3)
+Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.7/dist-packages (from transformers) (6.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.7/dist-packages (from huggingface-hub<1.0,>=0.1.0->transformers) (4.1.1)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/lib/python3.7/dist-packages (from packaging>=20.0->transformers) (3.0.8)
+Requirement already satisfied: protobuf>=3.12.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (3.17.3)
+Requirement already satisfied: psutil>=5.0.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (5.4.8)
+Requirement already satisfied: python-dateutil>=2.6.1 in /usr/local/lib/python3.7/dist-packages (from wandb) (2.8.2)
+Requirement already satisfied: promise<3,>=2.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (2.3)
+Requirement already satisfied: six>=1.13.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (1.15.0)
+Requirement already satisfied: GitPython>=1.0.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (3.1.27)
+Requirement already satisfied: pathtools in /usr/local/lib/python3.7/dist-packages (from wandb) (0.1.2)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (0.4.0)
+Requirement already satisfied: setproctitle in /usr/local/lib/python3.7/dist-packages (from wandb) (1.2.3)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (1.5.10)
+Requirement already satisfied: Click!=8.0.0,>=7.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (7.1.2)
+Requirement already satisfied: shortuuid>=0.5.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (1.0.8)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/local/lib/python3.7/dist-packages (from GitPython>=1.0.0->wandb) (4.0.9)
+Requirement already satisfied: smmap<6,>=3.0.1 in /usr/local/lib/python3.7/dist-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb) (5.0.0)
+Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.7/dist-packages (from requests->transformers) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.7/dist-packages (from requests->transformers) (2.10)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.7/dist-packages (from requests->transformers) (2021.10.8)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.7/dist-packages (from requests->transformers) (1.24.3)
+Requirement already satisfied: zipp>=0.5 in /usr/local/lib/python3.7/dist-packages (from importlib-metadata->transformers) (3.8.0)
+Requirement already satisfied: joblib in /usr/local/lib/python3.7/dist-packages (from sacremoses->transformers) (1.1.0)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+bertdistil_ep10_lr5e-05_754

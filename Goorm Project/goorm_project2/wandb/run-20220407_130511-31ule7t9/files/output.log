@@ -1,0 +1,52 @@
+
+Epoch 1
+Some weights of the model checkpoint at monologg/koelectra-base-v3-discriminator were not used when initializing ElectraForQuestionAnswering: ['discriminator_predictions.dense.weight', 'discriminator_predictions.dense_prediction.bias', 'discriminator_predictions.dense.bias', 'discriminator_predictions.dense_prediction.weight']
+- This IS expected if you are initializing ElectraForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing ElectraForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of ElectraForQuestionAnswering were not initialized from the model checkpoint at monologg/koelectra-base-v3-discriminator and are newly initialized: ['qa_outputs.weight', 'qa_outputs.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1
+torch.Size([2, 794])
+tensor([[   2, 3223, 4043,  ..., 2348,   18,    3],
+        [   2, 6631, 7568,  ...,    0,    0,    0]])
+['guid', 'context', 'question', 'position', 'input_ids', 'token_type_ids', 'start', 'end', 'attention_mask']
+Some weights of the model checkpoint at monologg/koelectra-base-v3-discriminator were not used when initializing ElectraForQuestionAnswering: ['discriminator_predictions.dense.weight', 'discriminator_predictions.dense_prediction.bias', 'discriminator_predictions.dense.bias', 'discriminator_predictions.dense_prediction.weight']
+- This IS expected if you are initializing ElectraForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing ElectraForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of ElectraForQuestionAnswering were not initialized from the model checkpoint at monologg/koelectra-base-v3-discriminator and are newly initialized: ['qa_outputs.weight', 'qa_outputs.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch 1
+Collecting transformers==3
+  Downloading transformers-3.0.0-py3-none-any.whl (754 kB)
+     |████████████████████████████████| 754 kB 5.1 MB/s
+[?25hCollecting sentencepiece
+  Downloading sentencepiece-0.1.96-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     |████████████████████████████████| 1.2 MB 56.7 MB/s
+[?25hRequirement already satisfied: numpy in /usr/local/lib/python3.7/dist-packages (from transformers==3) (1.21.5)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.7/dist-packages (from transformers==3) (2019.12.20)
+Requirement already satisfied: packaging in /usr/local/lib/python3.7/dist-packages (from transformers==3) (21.3)
+Requirement already satisfied: sacremoses in /usr/local/lib/python3.7/dist-packages (from transformers==3) (0.0.49)
+Requirement already satisfied: requests in /usr/local/lib/python3.7/dist-packages (from transformers==3) (2.23.0)
+Requirement already satisfied: tqdm>=4.27 in /usr/local/lib/python3.7/dist-packages (from transformers==3) (4.63.0)
+Requirement already satisfied: filelock in /usr/local/lib/python3.7/dist-packages (from transformers==3) (3.6.0)
+Collecting tokenizers==0.8.0-rc4
+  Downloading tokenizers-0.8.0rc4-cp37-cp37m-manylinux1_x86_64.whl (3.0 MB)
+     |████████████████████████████████| 3.0 MB 66.8 MB/s
+[?25hRequirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in /usr/local/lib/python3.7/dist-packages (from packaging->transformers==3) (3.0.7)
+Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.7/dist-packages (from requests->transformers==3) (2.10)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.7/dist-packages (from requests->transformers==3) (1.24.3)
+Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.7/dist-packages (from requests->transformers==3) (3.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.7/dist-packages (from requests->transformers==3) (2021.10.8)
+Requirement already satisfied: click in /usr/local/lib/python3.7/dist-packages (from sacremoses->transformers==3) (7.1.2)
+Requirement already satisfied: six in /usr/local/lib/python3.7/dist-packages (from sacremoses->transformers==3) (1.15.0)
+Requirement already satisfied: joblib in /usr/local/lib/python3.7/dist-packages (from sacremoses->transformers==3) (1.1.0)
+Installing collected packages: tokenizers, sentencepiece, transformers
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.11.6
+    Uninstalling tokenizers-0.11.6:
+      Successfully uninstalled tokenizers-0.11.6
+  Attempting uninstall: transformers
+    Found existing installation: transformers 4.18.0
+    Uninstalling transformers-4.18.0:
+      Successfully uninstalled transformers-4.18.0
+Successfully installed sentencepiece-0.1.96 tokenizers-0.8.0rc4 transformers-3.0.0

@@ -1,0 +1,99 @@
+Some weights of the model checkpoint at monologg/kobigbird-bert-base were not used when initializing BigBirdForQuestionAnswering: ['cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'bert.pooler.bias', 'cls.predictions.decoder.bias', 'bert.pooler.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.dense.bias', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BigBirdForQuestionAnswering were not initialized from the model checkpoint at monologg/kobigbird-bert-base and are newly initialized: ['qa_classifier.output.dense.weight', 'qa_classifier.output.dense.bias', 'qa_classifier.output.LayerNorm.weight', 'qa_classifier.intermediate.dense.weight', 'qa_classifier.output.LayerNorm.bias', 'qa_classifier.qa_outputs.bias', 'qa_classifier.intermediate.dense.bias', 'qa_classifier.qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of Samples: 12037
+Number of Train Samples: 10834
+Number of Dev Samples: 1203
+Number of Samples: 243425
+Number of Train Samples: 219083
+Number of Dev Samples: 24342
+Number of Samples: 100268
+Number of Train Samples: 90242
+Number of Dev Samples: 10026
+['‘', '마', '석', '역', '우방', '아이', '유', '쉘', '’']
+tensor([[    2,   549,  9125,  ...,     0,     0,     0],
+        [    2,   522,  4838,  ...,     0,     0,     0],
+        [    2, 28971,  4527,  ...,     0,     0,     0],
+        ...,
+        [    2,  6866, 14274,  ...,     0,     0,     0],
+        [    2,  7051,  4532,  ...,     0,     0,     0],
+        [    2, 28349,  6954,  ...,     0,     0,     0]])
+torch.Size([32, 843])
+['guid', 'context', 'question', 'position', 'input_ids', 'token_type_ids', 'start', 'end', 'attention_mask']
+/usr/local/lib/python3.7/dist-packages/transformers/models/big_bird/modeling_big_bird.py:978: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  * num_indices_to_pick_from
+Epoch 0 ===============================================================================================================
+Attention type 'block_sparse' is not possible if sequence_length: 605 <= num global tokens: 2 * config.block_size + min. num sliding tokens: 3 * config.block_size + config.num_random_blocks * config.block_size + additional buffer: config.num_random_blocks * config.block_size = 704 with config.block_size = 64, config.num_random_blocks = 3. Changing attention type to 'original_full'...
+Train Loss: 3.100
+Valid Loss: 2.776
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 1 ===============================================================================================================
+Train Loss: 2.006
+Valid Loss: 2.325
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 2 ===============================================================================================================
+Train Loss: 1.110
+Valid Loss: 2.427
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 3 ===============================================================================================================
+Train Loss: 0.933
+Valid Loss: 2.866
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 4 ===============================================================================================================
+Train Loss: 0.527
+Valid Loss: 3.271
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 5 ===============================================================================================================
+Train Loss: 0.399
+Valid Loss: 3.538
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 6 ===============================================================================================================
+Train Loss: 0.353
+Valid Loss: 3.818
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 7 ===============================================================================================================
+Train Loss: 0.210
+Valid Loss: 3.967
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 8 ===============================================================================================================
+Train Loss: 0.215
+Valid Loss: 4.284
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Epoch 9 ===============================================================================================================
+Train Loss: 0.202
+Valid Loss: 4.023
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Number of Test Samples 4008
+------1------
+Context: 938년 남한의 황제는 유홍조가 지휘하는 수군을 이끌고 침공하게 했다. 황제 자신도 군대를 해문(海門) 으로 이끌고 가서 유홍조에 가세했다. 응오꾸옌은 대라성 으로 행군하여 끼에우꽁띠엔(교공선, 矯公羨)을 잡아 처단하고, 침략군에 대비한 준비를 했다.nn박당강은 일반적으로 ‘숲의 강’이라고 불렸고, 이것은 양쪽 언덕 특히 왼쪽 언덕이 숲이었기 때문에 불렸던 명칭이다. 해발이 낮고 경사도 적었기 때문에 조수간만의 영향을 강하게 받는 장소였다.nn응오꾸옌은 병사와 백성을 시켜 숲에서 수천 개의 큰 나무를 베어내고, 그 앞을 깎아 철로 씌운 말뚝을 하구 근처의 요소에 박아두었다. 말뚝이 물속에 잠기게 하고, 진지 양쪽에서 군대를 매복시킨 것이다.nn938년 가을, 유홍조가 지휘하는 남한 수군이 하구에서 침공해 왔다. 응오꾸옌은 만조 시에 작은 배를 미끼로 써서 박당강 하구를 거슬러 올라왔다. 그후 썰물이 빠져나가기 시작하자 이것을 신호로 복병도 다 같이 반격하도록 명령을 내렸다. 남한군은 대항하지 못하고 바다로 도망치려고 했지만, 물이 빠져나가 수면으로 튀어나온 말뚝으로 인해 탈출을 할 수 없었다.nn남한군은 혼란에 빠졌고, 배는 말뚝에 의해 분쇄된 것으로 알려졌다. 한편 오권 군은 작은 배를 이용해 빠른 기동으로 접근하여 백병전을 전개하기에 이르렀다. 남한군은 배를 버리고 도주하였고, 이 전투에서 절반 이상의 병력을 잃었으며, 유홍조도 목숨을 잃었다.
+Question: 남한군의 도망을 방해한 것은 누가 설치하였나요?
+Answer: 응오꾸옌
+------2------
+Context: 박삼구 금호아시아나그룹 회장(사진) 측이 채권단의 금호산업 매각 가격에 경영권 프리미엄이 과도하게 계산됐다고 이의를 제기하고 나섰다. 회계법인의 평가 가격에 이미 프리미엄이 일부 포함됐는데 채권단이 추가로 90%의 프리미엄을 더 받겠다는 것은 지나치다는 주장이다.24일 업계에 따르면 산업은행은 25일까지 22개 금호산업 채권단으로부터 매각 가격에 대한 의견을 받아 이르면 이번 주말께 가격 조율을 마무리할 예정이다. 박 회장 측이 금호산업 ‘50%+1주’ 인수 가격으로 제시한 6503억원(주당 3만7564원)을 받아들일지도 함께 논의한다.박 회장 측은 채권단 결정을 앞두고 산업은행이 미래에셋자산운용 등 재무적투자자(FI) 의견을 받아 제시한 매각 가격 1조213억원(주당 5만9000원)은 문제가 있다고 지적했다. 금호아시아나그룹 관계자는 “채권단이 제시한 매각 가격(주당 5만9000원)은 회계법인이 산정한 평가 가격(주당 3만1369원)에 경영권 프리미엄 90%가량을 더한 것”이라며 “회계법인이 평가 가격을 산정할 때 경영권 프리미엄 일부를 반영한 점을 감안하면 프리미엄을 이중으로 계산했을 가능성이 있다”고 주장했다.그는 이어 “채권단과 맺은 약정에서 시가를 감안해 경영권 프리미엄을 산정하도록 돼 있다”며 “채권단이 제시한 가격은 현재 시가의 200%가량 된다”고 말했다. 통상 경영권 프리미엄이 시가의 45~55% 정도인 것을 감안하면 지나치게 많게 산정됐다는 주장이다. 금호산업 주가는 이날 5.52% 내린 1만5400원에 마감했다. 박 회장과 채권단은 ‘경영권 프리미엄은 인수합병(M&A) 거래 당시의 주가, 동종 기업 대비 금호산업의 상대가치 등을 종합적으로 고려하도록 한다’는 약정을 맺은 바 있다.채권단은 회계법인 평가 가격에 경영권 프리미엄을 더한 것은 아무 문제가 없다는 입장이다. 채권단 관계자는 “박 회장 측이 객관적인 평가 가격에 프리미엄을 더한다는 내용을 받아들여 약정서에 사인했다”며 “박 회장 측이 주장하는 시가는 가격을 산정할 때 고려하는 요소 가운데 하나일 뿐”이라고 반박했다.
+Question: 박삼구가 원하는 금호산업 매도값은 얼마인가?
+Answer: 6503억원
+------3------
+Context: “중소기업적합업종 제도는 소비자 권익을 위해 지금 당장 폐지해야 한다.”(김정호 연세대 경제대학원 특임교수) “대기업과 중소기업 양극화 해소를 위해 계속 유지해야 한다.”(이동주 중소기업연구원 정책본부장)8일 서울 여의도 국회의원회관에서 열린 ‘중소기업적합업종제도 어디로 가고 있는가’ 토론회에선 중기적합업종 제도의 존폐를 놓고 격론이 벌어졌다. 이날 행사는 홍지만 새누리당 의원이 주최하고 국회서민중소기업발전포럼과 한국프랜차이즈산업협회가 후원했다.김정호 교수는 주제발표를 통해 폐지론을 역설했다. 그는 “지금의 중기적합업종 제도는 이전 중기고유업종 제도의 재판에 불과하다”고 지적했다. 김 교수는 2006년 노무현 정부 시절 중기고유업종 제도가 폐지된 것은 이 제도로 인해 중기가 오히려 쇠퇴하고, 제품의 경쟁력이 떨어지며, 일자리가 감소했다는 점이 확인됐기 때문이라고 분석했다. 그는 특히 프랜차이즈의 경우 대기업과 영세상인들의 상생 공동체이므로 중기적합업종 대상에서 제외해야 한다고 주장했다. 김 교수는 “이 제도는 경쟁을 저해하므로 관련당국인 공정거래위원회가 나서서 없애야 한다”고 덧붙였다.이동주 본부장은 유지의 필요성을 주장했다. 그는 “소매업이나 음식점업, 제과점 같은 업종에서 대기업의 직영점이나 가맹점이 확대됨에 따라 자영업자의 어려움이 가중돼왔다”고 말했다. 이 본부장은 “중기적합업종 제도는 민간 자율로 운영되는 시장 친화적인 제도이므로 규제로 보기 어렵다”며 “보호기간을 한시적으로 정함으로써 중소기업의 자발적인 노력을 통해 경쟁력 제고를 유도하는 정책”이라고 설명했다. 그는 다만 “외국계 기업이 시장을 잠식하고 있거나 잠식할 우려가 있는 경우와 소비자 후생이 감소하고 있는 품목은 적합업종 지정이 바람직하지 않다”고 개선 방안을 제시했다.토론자로 나선 강창동 한국경제신문 유통전문기자는 “‘중기적합업종 규제의 역설’이 나타나고 있다”고 지적했다. 강 전문기자는 “지난해 3월 빵집 규제가 시작된 이후 늘어난 것은 개인 빵집이 아닌 이지바이, 잇브레드, 브래댄코 같은 중소 프랜차이즈 가맹점”이라며 “동네 빵집을 살린다는 정책 목표는 달성되지 못했다”고 말했다. 그는 “유명 브랜드의 프랜차이즈 가맹점주도 동네 빵집과 다를 바 없는 소상공인”이라며 “중기적합업종 제도는 ‘개념의 왜곡’이 많은 제도로 유지할 이유가 없다”고 주장했다. 유영식 중견기업연합회 상무는 “중견기업 중에는 매출이 200억~300억원 수준인 기업도 있는데 이런 기업들은 중기적합업종 제도 때문에 피해를 입는다”며 “이 제도의 취지는 골목상권 영세상인 보호이므로 소기업만 보호하는 적합업종 정책으로 바꿀 필요가 있다”고 제안했다.토론회를 마련한 홍 의원은 “중기적합업종 제도는 도입 취지와 달리 소비자선택권과 후생을 침해한다는 의견이 있어 딜레마에 빠져 있다”며 “정치권에서도 규제할 것인가 더 지원할 것인가를 고민하겠다”고 밝혔다.이날 토론회에는 임채운 서강대 경영학과 교수가 좌장을 맡았고 김종주 산업통상자원부 동반성장팀장, 정영태 동반성장위원회 적합업종지원단장, 박해철 중소기업중앙회 정책개발1본부장, 이주홍 녹색소비자연대 정책국장 등도 토론자로 참석했다. 박준동/이현동 기자
+Question: 중기적합업종에서 프랜차이즈는 배제되어야 한다고 밝힌 사람의 이름은?
+Answer: 김정호
+Attention type 'block_sparse' is not possible if sequence_length: 419 <= num global tokens: 2 * config.block_size + min. num sliding tokens: 3 * config.block_size + config.num_random_blocks * config.block_size + additional buffer: config.num_random_blocks * config.block_size = 704 with config.block_size = 64, config.num_random_blocks = 3. Changing attention type to 'original_full'...
+token position: (338, 342)
+context position: (0, 0)
+1 294 298
+2.1993512974051894
+평균: 0.0
+표준편차: 0.9999999999999999
+-----90%------
+2.1545341672467786
+2.2441684275636002
+-----95%------
+2.145952163599423
+2.2527504312109556
+-----99%------
+2.1291695786890394
+2.2695330161213394
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:3: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  This is separate from the ipykernel package so we can avoid doing imports until
+/usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:4: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.

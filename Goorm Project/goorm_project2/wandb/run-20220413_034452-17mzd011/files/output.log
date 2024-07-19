@@ -1,0 +1,44 @@
+Some weights of the model checkpoint at monologg/kobigbird-bert-base were not used when initializing BigBirdForQuestionAnswering: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.bias', 'cls.predictions.transform.dense.bias', 'bert.pooler.weight', 'cls.seq_relationship.bias', 'cls.seq_relationship.weight', 'bert.pooler.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight']
+- This IS expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BigBirdForQuestionAnswering were not initialized from the model checkpoint at monologg/kobigbird-bert-base and are newly initialized: ['qa_classifier.output.dense.weight', 'qa_classifier.qa_outputs.weight', 'qa_classifier.output.LayerNorm.weight', 'qa_classifier.qa_outputs.bias', 'qa_classifier.output.dense.bias', 'qa_classifier.intermediate.dense.weight', 'qa_classifier.output.LayerNorm.bias', 'qa_classifier.intermediate.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of Samples: 60407 243425 100268
+Number of Train Samples: 54367 219083 90242
+Number of Dev Samples: 6040 24342 10026
+Number of Samples: 12037 243425 100268
+Number of Train Samples: 10834 219083 90242
+Number of Dev Samples: 1203 24342 10026
+Number of Train Samples: 103168
+Number of Dev Samples: 11463
+['한국', '토', '지', '공사', '박물관']
+Number of Samples: 12037 243425 100268
+Number of Train Samples: 10834 219083 90242
+Number of Dev Samples: 1203 24342 10026
+Number of Train Samples: 84667
+Number of Dev Samples: 9407
+tensor([[    2,  9842,  4785,  ...,     0,     0,     0],
+        [    2, 10366, 28070,  ...,     0,     0,     0],
+        [    2,  2632,  4606,  ...,     0,     0,     0],
+        [    2,  9218,  7308,  ...,  2873,   518,     3]])
+torch.Size([4, 859])
+['guid', 'context', 'question', 'position', 'input_ids', 'token_type_ids', 'start', 'end', 'attention_mask']
+/usr/local/lib/python3.7/dist-packages/transformers/models/big_bird/modeling_big_bird.py:978: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  * num_indices_to_pick_from
+Attention type 'block_sparse' is not possible if sequence_length: 559 <= num global tokens: 2 * config.block_size + min. num sliding tokens: 3 * config.block_size + config.num_random_blocks * config.block_size + additional buffer: config.num_random_blocks * config.block_size = 704 with config.block_size = 64, config.num_random_blocks = 3. Changing attention type to 'original_full'...
+Epoch 0 ===============================================================================================================
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fe072d76dd0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1328, in __del__
+    self._shutdown_workers()
+  File "/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py", line 1301, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/usr/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/usr/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:

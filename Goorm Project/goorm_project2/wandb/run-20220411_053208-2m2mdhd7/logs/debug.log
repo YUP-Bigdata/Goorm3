@@ -1,0 +1,37 @@
+2022-04-11 05:32:08,621 INFO    MainThread:5973 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-04-11 05:32:08,622 INFO    MainThread:5973 [wandb_setup.py:_flush():75] Loading settings from /content/drive/MyDrive/groom_project2/wandb/settings
+2022-04-11 05:32:08,622 INFO    MainThread:5973 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-11 05:32:08,622 INFO    MainThread:5973 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-04-11 05:32:08,622 INFO    MainThread:5973 [wandb_init.py:_log_setup():438] Logging user logs to /content/drive/MyDrive/groom_project2/wandb/run-20220411_053208-2m2mdhd7/logs/debug.log
+2022-04-11 05:32:08,623 INFO    MainThread:5973 [wandb_init.py:_log_setup():439] Logging internal logs to /content/drive/MyDrive/groom_project2/wandb/run-20220411_053208-2m2mdhd7/logs/debug-internal.log
+2022-04-11 05:32:08,623 INFO    MainThread:5973 [wandb_init.py:init():472] calling init triggers
+2022-04-11 05:32:08,623 INFO    MainThread:5973 [wandb_init.py:init():476] wandb.init called with sweep_config: {}
+config: {}
+2022-04-11 05:32:08,623 INFO    MainThread:5973 [wandb_init.py:init():492] re-initializing run, found existing run on stack: pusneey6
+2022-04-11 05:32:08,636 ERROR   MainThread:5973 [wandb_init.py:init():1023] error
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_init.py", line 996, in init
+    run = wi.init()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_init.py", line 504, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 1677, in finish
+    return self._finish(exit_code, quiet)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 1683, in _finish
+    tel.feature.finish = True
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/lib/telemetry.py", line 43, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 571, in _telemetry_callback
+    self._telemetry_flush()
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/wandb_run.py", line 582, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_shared.py", line 73, in _publish_telemetry
+    self._publish(rec)
+  File "/usr/local/lib/python3.7/dist-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-04-11 05:32:10,680 INFO    MainThread:5973 [wandb_init.py:_pause_backend():351] pausing backend
+2022-04-11 05:32:10,680 INFO    MainThread:5973 [jupyter.py:save_ipynb():377] not saving jupyter notebook

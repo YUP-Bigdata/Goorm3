@@ -1,0 +1,129 @@
+2022-04-24 10:44:07,676 INFO    MainThread:100 [wandb_setup.py:_flush():75] Loading settings from /root/.config/wandb/settings
+2022-04-24 10:44:07,676 INFO    MainThread:100 [wandb_setup.py:_flush():75] Loading settings from /content/drive/MyDrive/goorm_project3/wandb/settings
+2022-04-24 10:44:07,676 INFO    MainThread:100 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2022-04-24 10:44:07,677 INFO    MainThread:100 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-04-24 10:44:07,677 INFO    MainThread:100 [wandb_setup.py:_flush():75] Applying login settings: {'api_key': '***REDACTED***'}
+2022-04-24 10:44:07,677 INFO    MainThread:100 [wandb_init.py:_log_setup():437] Logging user logs to /content/drive/MyDrive/goorm_project3/wandb/run-20220424_104407-3b9lg32h/logs/debug.log
+2022-04-24 10:44:07,677 INFO    MainThread:100 [wandb_init.py:_log_setup():438] Logging internal logs to /content/drive/MyDrive/goorm_project3/wandb/run-20220424_104407-3b9lg32h/logs/debug-internal.log
+2022-04-24 10:44:07,678 INFO    MainThread:100 [wandb_init.py:_jupyter_setup():387] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f21eba92050>
+2022-04-24 10:44:07,678 INFO    MainThread:100 [wandb_init.py:init():471] calling init triggers
+2022-04-24 10:44:07,678 INFO    MainThread:100 [wandb_init.py:init():475] wandb.init called with sweep_config: {}
+config: {}
+2022-04-24 10:44:07,678 INFO    MainThread:100 [wandb_init.py:init():524] starting backend
+2022-04-24 10:44:07,678 INFO    MainThread:100 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-04-24 10:44:07,699 INFO    MainThread:100 [backend.py:ensure_launched():217] starting backend process...
+2022-04-24 10:44:07,714 INFO    MainThread:100 [backend.py:ensure_launched():222] started backend process with pid: 499
+2022-04-24 10:44:07,716 INFO    MainThread:100 [wandb_init.py:init():533] backend started and connected
+2022-04-24 10:44:07,752 INFO    MainThread:100 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-04-24 10:44:08,458 INFO    MainThread:100 [wandb_init.py:init():597] updated telemetry
+2022-04-24 10:44:08,462 INFO    MainThread:100 [wandb_init.py:init():628] communicating run to backend with 30 second timeout
+2022-04-24 10:44:08,880 INFO    MainThread:100 [wandb_run.py:_on_init():1923] communicating current version
+2022-04-24 10:44:08,946 INFO    MainThread:100 [wandb_run.py:_on_init():1927] got version response 
+2022-04-24 10:44:08,947 INFO    MainThread:100 [wandb_init.py:init():659] starting run threads in backend
+2022-04-24 10:44:11,660 INFO    MainThread:100 [wandb_run.py:_console_start():1897] atexit reg
+2022-04-24 10:44:11,665 INFO    MainThread:100 [wandb_run.py:_redirect():1770] redirect: SettingsConsole.WRAP
+2022-04-24 10:44:11,666 INFO    MainThread:100 [wandb_run.py:_redirect():1807] Wrapping output streams.
+2022-04-24 10:44:11,667 INFO    MainThread:100 [wandb_run.py:_redirect():1831] Redirects installed.
+2022-04-24 10:44:11,667 INFO    MainThread:100 [wandb_init.py:init():684] run started, returning control to user process
+2022-04-24 10:44:11,672 INFO    MainThread:100 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-24 10:44:11,672 INFO    MainThread:100 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-24 10:44:13,936 INFO    MainThread:100 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-24 10:44:13,939 INFO    MainThread:100 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-24 10:44:13,939 INFO    MainThread:100 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-24 10:44:14,309 INFO    MainThread:100 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-24 10:44:17,876 INFO    MainThread:100 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-24 10:44:17,877 INFO    MainThread:100 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-24 10:44:17,887 INFO    MainThread:100 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-24 10:44:39,637 INFO    MainThread:100 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-24 10:44:39,638 INFO    MainThread:100 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-24 10:44:45,772 INFO    MainThread:100 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-24 10:44:45,794 INFO    MainThread:100 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-24 10:44:45,795 INFO    MainThread:100 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-24 10:44:47,984 INFO    MainThread:100 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-24 10:44:48,277 INFO    MainThread:100 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-24 10:44:48,278 INFO    MainThread:100 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-24 10:45:03,808 INFO    MainThread:100 [wandb_init.py:_resume_backend():359] resuming backend
+2022-04-24 10:45:04,238 INFO    MainThread:100 [wandb_init.py:_pause_backend():350] pausing backend
+2022-04-24 10:45:04,238 INFO    MainThread:100 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-04-24 10:48:36,697 INFO    MainThread:100 [wandb_run.py:_atexit_cleanup():1866] got exitcode: 0
+2022-04-24 10:48:36,700 INFO    MainThread:100 [wandb_run.py:_restore():1838] restore
+2022-04-24 10:48:37,018 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 685
+  total_bytes: 685
+}
+
+2022-04-24 10:48:37,484 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 685
+  total_bytes: 10977
+}
+
+2022-04-24 10:48:37,588 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10977
+  total_bytes: 10977
+}
+
+2022-04-24 10:48:37,691 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10977
+  total_bytes: 10977
+}
+
+2022-04-24 10:48:37,793 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10977
+  total_bytes: 10977
+}
+
+2022-04-24 10:48:37,896 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10977
+  total_bytes: 10977
+}
+
+2022-04-24 10:48:37,998 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10977
+  total_bytes: 10977
+}
+
+2022-04-24 10:48:38,144 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10977
+  total_bytes: 10977
+}
+
+2022-04-24 10:48:38,295 INFO    MainThread:100 [wandb_run.py:_on_finish():1995] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 10977
+  total_bytes: 10977
+}
+local_info {
+}
+
+2022-04-24 10:48:39,745 INFO    MainThread:100 [wandb_run.py:_footer_history_summary_info():3102] rendering history
+2022-04-24 10:48:39,746 INFO    MainThread:100 [wandb_run.py:_footer_history_summary_info():3134] rendering summary
+2022-04-24 10:48:39,749 INFO    MainThread:100 [wandb_run.py:_footer_sync_info():3057] logging synced files

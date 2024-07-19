@@ -1,0 +1,71 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:   1%|          | 69/6926 [00:58<28:47,  3.97batch/s, acc=1, loss=0.0213]
+ACCURACY for lowest valid acc:  0.971435546875
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:   2%|▏         | 138/6926 [02:16<3:30:29,  1.86s/batch, acc=0.938, loss=0.169]
+ACCURACY for lowest valid loss:  0.971435546875
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:   3%|▎         | 207/6926 [03:34<2:33:55,  1.37s/batch, acc=0.969, loss=0.127]
+ACCURACY for lowest valid acc:  0.973876953125
+
+
+
+
+
+Epoch 0:   3%|▎         | 223/6926 [04:08<2:04:37,  1.12s/batch, acc=0.984, loss=0.0298]
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+dataset exists => just load datasets
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+dataset exists => just load datasets

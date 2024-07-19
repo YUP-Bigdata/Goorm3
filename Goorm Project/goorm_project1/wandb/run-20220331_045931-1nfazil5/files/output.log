@@ -1,0 +1,70 @@
+
+
+
+
+
+
+Epoch 0:   1%|          | 17/1732 [00:12<16:48,  1.70batch/s, acc=0.965, loss=0.102]
+ACCURACY for lowest valid acc:  0.956884765625
+
+
+
+
+
+
+
+Epoch 0:   2%|▏         | 34/1732 [00:33<32:13,  1.14s/batch, acc=0.945, loss=0.157]
+ACCURACY for lowest valid acc:  0.959423828125
+
+
+
+
+
+
+
+Epoch 0:   3%|▎         | 51/1732 [00:53<23:30,  1.19batch/s, acc=0.984, loss=0.0618]
+ACCURACY for lowest valid acc:  0.964111328125
+
+
+
+
+
+
+
+Epoch 0:   4%|▍         | 68/1732 [01:12<16:38,  1.67batch/s, acc=0.949, loss=0.126]
+ACCURACY for lowest valid loss:  0.95908203125
+
+
+
+
+
+
+
+Epoch 0:   5%|▍         | 85/1732 [01:34<15:54,  1.73batch/s, acc=0.965, loss=0.0759]
+ACCURACY for lowest valid loss:  0.95966796875
+
+
+
+
+
+
+Epoch 0:   6%|▌         | 102/1732 [01:53<25:11,  1.08batch/s, acc=0.973, loss=0.0841]
+ACCURACY for lowest valid acc:  0.9701171875
+
+
+
+
+
+
+
+
+Epoch 0:   7%|▋         | 119/1732 [02:18<17:04,  1.57batch/s, acc=0.965, loss=0.104]
+ACCURACY for lowest valid loss:  0.967041015625
+
+
+
+Epoch 0:   7%|▋         | 127/1732 [02:31<31:52,  1.19s/batch, acc=0.945, loss=0.111]
+/usr/local/lib/python3.7/dist-packages/transformers/optimization.py:309: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  FutureWarning,
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+dataset exists => just load datasets

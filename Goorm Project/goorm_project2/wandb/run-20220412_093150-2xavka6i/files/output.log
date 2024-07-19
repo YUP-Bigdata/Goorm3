@@ -1,0 +1,27 @@
+Some weights of the model checkpoint at monologg/kobigbird-bert-base were not used when initializing BigBirdForQuestionAnswering: ['cls.predictions.decoder.weight', 'bert.pooler.bias', 'cls.predictions.decoder.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.seq_relationship.bias', 'bert.pooler.weight']
+- This IS expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BigBirdForQuestionAnswering were not initialized from the model checkpoint at monologg/kobigbird-bert-base and are newly initialized: ['qa_classifier.qa_outputs.weight', 'qa_classifier.qa_outputs.bias', 'qa_classifier.intermediate.dense.weight', 'qa_classifier.output.LayerNorm.bias', 'qa_classifier.output.LayerNorm.weight', 'qa_classifier.output.dense.weight', 'qa_classifier.intermediate.dense.bias', 'qa_classifier.output.dense.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of Samples: 12037
+Number of Train Samples: 10834
+Number of Dev Samples: 1203
+Number of Samples: 96663
+Number of Train Samples: 86997
+Number of Dev Samples: 9666
+Number of Samples: 100268
+Number of Train Samples: 90242
+Number of Dev Samples: 10026
+['영업', '비용']
+tensor([[    2,  8667,  4604,  ...,     0,     0,     0],
+        [    2,  3972,  4831,  ...,     0,     0,     0],
+        [    2, 10571,  4561,  ...,     0,     0,     0],
+        ...,
+        [    2, 16280,  4856,  ...,     0,     0,     0],
+        [    2, 14042,  4673,  ...,  2618, 29771,     3],
+        [    2,  7095, 29164,  ...,     0,     0,     0]])
+torch.Size([16, 1024])
+['guid', 'context', 'question', 'position', 'input_ids', 'token_type_ids', 'start', 'end', 'attention_mask']
+Epoch 0 ===============================================================================================================
+/usr/local/lib/python3.7/dist-packages/transformers/models/big_bird/modeling_big_bird.py:978: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  * num_indices_to_pick_from

@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.4.144+-x86_64-with-Ubuntu-18.04-bionic",
+    "python": "3.7.13",
+    "heartbeatAt": "2022-03-31T07:40:50.977382",
+    "startedAt": "2022-03-31T07:40:42.592022",
+    "docker": null,
+    "gpu": "Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/root/.local/share/jupyter/runtime/kernel-09cd6908-737f-4b05-9929-4957bfe08f0b.json"
+    ],
+    "state": "running",
+    "program": "Yelp_Sentiment_Classification_scheduler.ipynb",
+    "colab": "https://colab.research.google.com/notebook#fileId=1B5l4-8NEsZmoNeINWqBXmYB1UByq1pQu",
+    "host": "0f8d40a20f22",
+    "username": "root",
+    "executable": "/usr/bin/python3"
+}

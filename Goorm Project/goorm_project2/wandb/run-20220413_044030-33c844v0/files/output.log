@@ -1,0 +1,15 @@
+Some weights of the model checkpoint at monologg/kobigbird-bert-base were not used when initializing BigBirdForQuestionAnswering: ['cls.seq_relationship.bias', 'bert.pooler.bias', 'bert.pooler.weight', 'cls.seq_relationship.weight', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.decoder.bias']
+- This IS expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BigBirdForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BigBirdForQuestionAnswering were not initialized from the model checkpoint at monologg/kobigbird-bert-base and are newly initialized: ['qa_classifier.output.dense.weight', 'qa_classifier.output.LayerNorm.weight', 'qa_classifier.qa_outputs.bias', 'qa_classifier.output.dense.bias', 'qa_classifier.intermediate.dense.weight', 'qa_classifier.intermediate.dense.bias', 'qa_classifier.qa_outputs.weight', 'qa_classifier.output.LayerNorm.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Number of Samples: 12037
+Number of Train Samples: 10834
+Number of Dev Samples: 1203
+Number of Samples: 243425
+Number of Train Samples: 219083
+Number of Dev Samples: 24342
+Number of Samples: 100268
+Number of Train Samples: 90242
+Number of Dev Samples: 10026
+['‘', '마', '석', '역', '우방', '아이', '유', '쉘', '’']
